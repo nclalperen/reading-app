@@ -11,17 +11,32 @@
     "quiz": [
       {
         "question": "According to the article, how much of the ocean floor do coral reefs cover?",
-        "options": ["Nearly half", "About one percent or less", "Roughly ten percent", "The majority of it"],
+        "options": [
+          "Nearly half",
+          "About one percent or less",
+          "Roughly ten percent",
+          "The majority of it"
+        ],
         "correct": 1
       },
       {
         "question": "What do the algae living inside coral polyps provide?",
-        "options": ["A type of predatory defense", "Most of the polyp's energy through photosynthesis", "The hard outer skeleton", "A disease that causes bleaching"],
+        "options": [
+          "A type of predatory defense",
+          "Most of the polyp's energy through photosynthesis",
+          "The hard outer skeleton",
+          "A disease that causes bleaching"
+        ],
         "correct": 1
       },
       {
         "question": "What happens during coral bleaching?",
-        "options": ["Polyps build a thicker skeleton", "Coral changes color permanently but stays healthy", "Stressed polyps expel their algae, leaving them starving", "Reefs sink into cooler water"],
+        "options": [
+          "Polyps build a thicker skeleton",
+          "Coral changes color permanently but stays healthy",
+          "Stressed polyps expel their algae, leaving them starving",
+          "Reefs sink into cooler water"
+        ],
         "correct": 2
       }
     ]
@@ -38,17 +53,32 @@
     "quiz": [
       {
         "question": "What is a sourdough starter made from?",
-        "options": ["Commercial yeast and sugar", "Flour and water combined with wild microorganisms", "Milk and bacteria only", "A packet of dried yeast"],
+        "options": [
+          "Commercial yeast and sugar",
+          "Flour and water combined with wild microorganisms",
+          "Milk and bacteria only",
+          "A packet of dried yeast"
+        ],
         "correct": 1
       },
       {
         "question": "What causes sourdough's distinctive tangy flavor?",
-        "options": ["Acids produced by bacteria in the starter", "Added vinegar", "The baking temperature", "Carbon dioxide trapped in the gluten"],
+        "options": [
+          "Acids produced by bacteria in the starter",
+          "Added vinegar",
+          "The baking temperature",
+          "Carbon dioxide trapped in the gluten"
+        ],
         "correct": 0
       },
       {
         "question": "Why might two sourdough starters taste different from each other?",
-        "options": ["They always use different flour brands", "They contain different mixes of local microorganisms", "One is older than the other by law", "Only professional bakers can make good starters"],
+        "options": [
+          "They always use different flour brands",
+          "They contain different mixes of local microorganisms",
+          "One is older than the other by law",
+          "Only professional bakers can make good starters"
+        ],
         "correct": 1
       }
     ]
@@ -65,17 +95,32 @@
     "quiz": [
       {
         "question": "What normally confines the aurora borealis to regions near the poles?",
-        "options": ["Earth's magnetic field directing particles there", "Cloud cover everywhere else", "A lack of oxygen elsewhere", "Government restrictions"],
+        "options": [
+          "Earth's magnetic field directing particles there",
+          "Cloud cover everywhere else",
+          "A lack of oxygen elsewhere",
+          "Government restrictions"
+        ],
         "correct": 0
       },
       {
         "question": "What caused the unusually widespread aurora described in the article?",
-        "options": ["An unusually cold spring", "A powerful geomagnetic storm from a coronal mass ejection", "A meteor shower", "Increased city lighting"],
+        "options": [
+          "An unusually cold spring",
+          "A powerful geomagnetic storm from a coronal mass ejection",
+          "A meteor shower",
+          "Increased city lighting"
+        ],
         "correct": 1
       },
       {
         "question": "Besides the visible light show, what else can strong geomagnetic storms affect?",
-        "options": ["Ocean tides", "Satellites, radio communications, and power grids", "The length of the day", "Only airplane schedules"],
+        "options": [
+          "Ocean tides",
+          "Satellites, radio communications, and power grids",
+          "The length of the day",
+          "Only airplane schedules"
+        ],
         "correct": 1
       }
     ]
@@ -92,17 +137,32 @@
     "quiz": [
       {
         "question": "What are chromatophores?",
-        "options": ["Specialized skin cells that expand and contract to display pigment", "The octopus's primary eyes", "A type of coral the octopus eats", "Muscles used only for swimming"],
+        "options": [
+          "Specialized skin cells that expand and contract to display pigment",
+          "The octopus's primary eyes",
+          "A type of coral the octopus eats",
+          "Muscles used only for swimming"
+        ],
         "correct": 0
       },
       {
         "question": "What do iridophores do?",
-        "options": ["Produce a foul smell", "Reflect light to create shimmering blues and greens", "Store food for later use", "Help the octopus breathe underwater"],
+        "options": [
+          "Produce a foul smell",
+          "Reflect light to create shimmering blues and greens",
+          "Store food for later use",
+          "Help the octopus breathe underwater"
+        ],
         "correct": 1
       },
       {
         "question": "What puzzling fact about octopus vision does the article mention?",
-        "options": ["Octopuses cannot see at all", "Octopuses are colorblind yet can still match colors precisely", "Octopuses only see in black and white at night", "Octopuses have four eyes"],
+        "options": [
+          "Octopuses cannot see at all",
+          "Octopuses are colorblind yet can still match colors precisely",
+          "Octopuses only see in black and white at night",
+          "Octopuses have four eyes"
+        ],
         "correct": 1
       }
     ]
@@ -119,17 +179,32 @@
     "quiz": [
       {
         "question": "How many days did the Pony Express typically take to deliver mail across the country?",
-        "options": ["About ten days", "A single day", "Two months", "One year"],
+        "options": [
+          "About ten days",
+          "A single day",
+          "Two months",
+          "One year"
+        ],
         "correct": 0
       },
       {
         "question": "What eventually made the Pony Express obsolete?",
-        "options": ["A new type of horse", "The completion of the transcontinental telegraph", "A ban on private mail services", "The invention of the automobile"],
+        "options": [
+          "A new type of horse",
+          "The completion of the transcontinental telegraph",
+          "A ban on private mail services",
+          "The invention of the automobile"
+        ],
         "correct": 1
       },
       {
         "question": "How were relay stations spaced along the route?",
-        "options": ["Every hundred miles", "Roughly every ten to fifteen miles", "Only in major cities", "Every fifty feet"],
+        "options": [
+          "Every hundred miles",
+          "Roughly every ten to fifteen miles",
+          "Only in major cities",
+          "Every fifty feet"
+        ],
         "correct": 1
       }
     ]
@@ -146,17 +221,32 @@
     "quiz": [
       {
         "question": "What first tipped off Percy Spencer that microwaves might cook food?",
-        "options": ["A chocolate bar melted in his pocket", "His lab caught fire", "A colleague suggested the idea", "He read about it in a magazine"],
+        "options": [
+          "A chocolate bar melted in his pocket",
+          "His lab caught fire",
+          "A colleague suggested the idea",
+          "He read about it in a magazine"
+        ],
         "correct": 0
       },
       {
         "question": "What happened when Spencer aimed the magnetron at an egg?",
-        "options": ["Nothing happened", "It exploded", "It froze", "It turned green"],
+        "options": [
+          "Nothing happened",
+          "It exploded",
+          "It froze",
+          "It turned green"
+        ],
         "correct": 1
       },
       {
         "question": "Why were the first commercial microwave ovens limited mostly to restaurants and ships?",
-        "options": ["They were too small to be useful", "They were large, heavy, and expensive", "They were illegal in homes", "They required a special license"],
+        "options": [
+          "They were too small to be useful",
+          "They were large, heavy, and expensive",
+          "They were illegal in homes",
+          "They required a special license"
+        ],
         "correct": 1
       }
     ]
@@ -173,17 +263,32 @@
     "quiz": [
       {
         "question": "Where was the mechanism discovered?",
-        "options": ["Inside a pyramid", "In a shipwreck off Antikythera", "Buried in a Roman villa", "In a cave in Crete"],
+        "options": [
+          "Inside a pyramid",
+          "In a shipwreck off Antikythera",
+          "Buried in a Roman villa",
+          "In a cave in Crete"
+        ],
         "correct": 1
       },
       {
         "question": "What did the device appear capable of doing?",
-        "options": ["Measuring earthquakes", "Tracking celestial movements and predicting eclipses", "Translating ancient languages", "Purifying water"],
+        "options": [
+          "Measuring earthquakes",
+          "Tracking celestial movements and predicting eclipses",
+          "Translating ancient languages",
+          "Purifying water"
+        ],
         "correct": 1
       },
       {
         "question": "What did the discovery force historians to reconsider?",
-        "options": ["The location of ancient Greece", "How advanced ancient technology truly was", "The diet of ancient sailors", "The size of ancient ships"],
+        "options": [
+          "The location of ancient Greece",
+          "How advanced ancient technology truly was",
+          "The diet of ancient sailors",
+          "The size of ancient ships"
+        ],
         "correct": 1
       }
     ]
@@ -200,17 +305,32 @@
     "quiz": [
       {
         "question": "What triggers the chemical reaction that makes onions cause tears?",
-        "options": ["Cooking the onion", "Breaking the onion's cell walls, such as with a knife", "Peeling off the skin", "Freezing the onion"],
+        "options": [
+          "Cooking the onion",
+          "Breaking the onion's cell walls, such as with a knife",
+          "Peeling off the skin",
+          "Freezing the onion"
+        ],
         "correct": 1
       },
       {
         "question": "What does the resulting gas form when it reaches the eyes?",
-        "options": ["A sweet-smelling oil", "A mild sulfuric acid", "A harmless salt", "Nothing, it evaporates instantly"],
+        "options": [
+          "A sweet-smelling oil",
+          "A mild sulfuric acid",
+          "A harmless salt",
+          "Nothing, it evaporates instantly"
+        ],
         "correct": 1
       },
       {
         "question": "Which trick is mentioned as a way to reduce onion-induced tears?",
-        "options": ["Cutting the onion in direct sunlight", "Chilling the onion before cutting it", "Cutting the onion very slowly", "Wearing gloves"],
+        "options": [
+          "Cutting the onion in direct sunlight",
+          "Chilling the onion before cutting it",
+          "Cutting the onion very slowly",
+          "Wearing gloves"
+        ],
         "correct": 1
       }
     ]
@@ -227,17 +347,32 @@
     "quiz": [
       {
         "question": "What is the approximate ideal angle for a stone to strike the water?",
-        "options": ["About twenty degrees", "About ninety degrees", "About five degrees", "There is no ideal angle"],
+        "options": [
+          "About twenty degrees",
+          "About ninety degrees",
+          "About five degrees",
+          "There is no ideal angle"
+        ],
         "correct": 0
       },
       {
         "question": "What role does spin play in a skipping stone?",
-        "options": ["It slows the stone down", "It stabilizes the stone like a gyroscope", "It has no measurable effect", "It causes the stone to sink faster"],
+        "options": [
+          "It slows the stone down",
+          "It stabilizes the stone like a gyroscope",
+          "It has no measurable effect",
+          "It causes the stone to sink faster"
+        ],
         "correct": 1
       },
       {
         "question": "Where has research on skipping stones found unexpected real-world application?",
-        "options": ["Airplane wing design", "The design of certain naval projectiles", "Bicycle tire treads", "Building foundations"],
+        "options": [
+          "Airplane wing design",
+          "The design of certain naval projectiles",
+          "Bicycle tire treads",
+          "Building foundations"
+        ],
         "correct": 1
       }
     ]
@@ -254,17 +389,32 @@
     "quiz": [
       {
         "question": "Why does a recorded voice sound different from how you hear yourself speak?",
-        "options": ["Microphones always distort sound", "Your own voice reaches you partly through bone conduction, not just air", "Recordings always play back faster", "Everyone's hearing changes as they age"],
+        "options": [
+          "Microphones always distort sound",
+          "Your own voice reaches you partly through bone conduction, not just air",
+          "Recordings always play back faster",
+          "Everyone's hearing changes as they age"
+        ],
         "correct": 1
       },
       {
         "question": "What quality does bone conduction add to your self-perceived voice?",
-        "options": ["A higher pitch", "A fuller, deeper quality", "An echo effect", "No noticeable difference"],
+        "options": [
+          "A higher pitch",
+          "A fuller, deeper quality",
+          "An echo effect",
+          "No noticeable difference"
+        ],
         "correct": 1
       },
       {
         "question": "According to the article, which version of your voice do other people actually hear?",
-        "options": ["The version you hear in your head", "The version captured in a recording", "Neither version is accurate", "A mix of both, averaged together"],
+        "options": [
+          "The version you hear in your head",
+          "The version captured in a recording",
+          "Neither version is accurate",
+          "A mix of both, averaged together"
+        ],
         "correct": 1
       }
     ]
@@ -281,17 +431,32 @@
     "quiz": [
       {
         "question": "What do Venice's buildings actually rest on?",
-        "options": ["Solid bedrock", "Forests of wooden piles driven into the mud", "Floating concrete platforms", "Reinforced steel columns"],
+        "options": [
+          "Solid bedrock",
+          "Forests of wooden piles driven into the mud",
+          "Floating concrete platforms",
+          "Reinforced steel columns"
+        ],
         "correct": 1
       },
       {
         "question": "Why hasn't the wood beneath Venice rotted away?",
-        "options": ["It was chemically treated", "It is replaced every decade", "Oxygen-poor mud protects it from the microorganisms that cause decay", "The wood is a special rot-proof species"],
+        "options": [
+          "It was chemically treated",
+          "It is replaced every decade",
+          "Oxygen-poor mud protects it from the microorganisms that cause decay",
+          "The wood is a special rot-proof species"
+        ],
         "correct": 2
       },
       {
         "question": "What is described as Venice's main modern threat?",
-        "options": ["Earthquakes", "Rising water and flooding", "Wood-eating insects", "A shortage of building material"],
+        "options": [
+          "Earthquakes",
+          "Rising water and flooding",
+          "Wood-eating insects",
+          "A shortage of building material"
+        ],
         "correct": 1
       }
     ]
@@ -308,17 +473,32 @@
     "quiz": [
       {
         "question": "Why does the road on the Snaefellsnes peninsula curve around a boulder?",
-        "options": ["The boulder is too large to remove", "Folklore about hidden people, or huldufólk, discourages disturbing it", "The rock is a protected fossil", "City planners made a mapping error"],
+        "options": [
+          "The boulder is too large to remove",
+          "Folklore about hidden people, or huldufólk, discourages disturbing it",
+          "The rock is a protected fossil",
+          "City planners made a mapping error"
+        ],
         "correct": 1
       },
       {
         "question": "According to the article, what are the huldufólk?",
-        "options": ["Elusive beings said to live alongside humans out of sight", "A species of Icelandic bird", "A government road planning agency", "A type of volcanic rock"],
+        "options": [
+          "Elusive beings said to live alongside humans out of sight",
+          "A species of Icelandic bird",
+          "A government road planning agency",
+          "A type of volcanic rock"
+        ],
         "correct": 0
       },
       {
         "question": "What have the diverted roads become, beyond their original purpose?",
-        "options": ["A hazard drivers avoid entirely", "A minor tourist curiosity", "A protected nature reserve", "An unused abandoned path"],
+        "options": [
+          "A hazard drivers avoid entirely",
+          "A minor tourist curiosity",
+          "A protected nature reserve",
+          "An unused abandoned path"
+        ],
         "correct": 1
       }
     ]
@@ -335,17 +515,32 @@
     "quiz": [
       {
         "question": "What did Bluma Zeigarnik originally notice about the waiters she observed?",
-        "options": ["They never made mistakes", "They recalled unpaid orders better than paid ones", "They worked faster than average", "They disliked their jobs"],
+        "options": [
+          "They never made mistakes",
+          "They recalled unpaid orders better than paid ones",
+          "They worked faster than average",
+          "They disliked their jobs"
+        ],
         "correct": 1
       },
       {
         "question": "In her experiments, which tasks did participants remember better?",
-        "options": ["Tasks they completed without interruption", "Tasks that were deliberately left unfinished", "Tasks they found boring", "There was no difference"],
+        "options": [
+          "Tasks they completed without interruption",
+          "Tasks that were deliberately left unfinished",
+          "Tasks they found boring",
+          "There was no difference"
+        ],
         "correct": 1
       },
       {
         "question": "According to the article, what can help ease the mental tension of an unfinished task?",
-        "options": ["Ignoring it completely", "Writing it down, even before finishing it", "Working on multiple tasks at once", "Taking a long vacation"],
+        "options": [
+          "Ignoring it completely",
+          "Writing it down, even before finishing it",
+          "Working on multiple tasks at once",
+          "Taking a long vacation"
+        ],
         "correct": 1
       }
     ]
@@ -362,17 +557,32 @@
     "quiz": [
       {
         "question": "In the jam experiment, which display attracted more browsers?",
-        "options": ["The smaller display with six flavors", "The larger display with twenty-four flavors", "Both attracted an equal number", "Neither attracted any shoppers"],
+        "options": [
+          "The smaller display with six flavors",
+          "The larger display with twenty-four flavors",
+          "Both attracted an equal number",
+          "Neither attracted any shoppers"
+        ],
         "correct": 1
       },
       {
         "question": "Which group of shoppers was more likely to actually buy a jar of jam?",
-        "options": ["Those who saw twenty-four flavors", "Those who saw only six flavors", "Shoppers who tasted nothing", "There was no difference in purchases"],
+        "options": [
+          "Those who saw twenty-four flavors",
+          "Those who saw only six flavors",
+          "Shoppers who tasted nothing",
+          "There was no difference in purchases"
+        ],
         "correct": 1
       },
       {
         "question": "What does the article suggest too many choices can cause?",
-        "options": ["Faster decision-making", "Increased anxiety that can lead to avoiding a decision entirely", "Lower prices", "Improved memory of the options"],
+        "options": [
+          "Faster decision-making",
+          "Increased anxiety that can lead to avoiding a decision entirely",
+          "Lower prices",
+          "Improved memory of the options"
+        ],
         "correct": 1
       }
     ]
@@ -389,17 +599,32 @@
     "quiz": [
       {
         "question": "Why is extremely precise timing critical to how GPS calculates location?",
-        "options": ["It isn't actually important", "Tiny timing errors translate into meaningful position errors on the ground", "GPS doesn't use timing at all", "Satellites only update their position once a year"],
+        "options": [
+          "It isn't actually important",
+          "Tiny timing errors translate into meaningful position errors on the ground",
+          "GPS doesn't use timing at all",
+          "Satellites only update their position once a year"
+        ],
         "correct": 1
       },
       {
         "question": "What does the article say happens to satellite clocks relative to clocks on Earth?",
-        "options": ["They run at exactly the same rate", "They run slightly fast due to combined relativistic effects", "They stop periodically", "They run dramatically slower"],
+        "options": [
+          "They run at exactly the same rate",
+          "They run slightly fast due to combined relativistic effects",
+          "They stop periodically",
+          "They run dramatically slower"
+        ],
         "correct": 1
       },
       {
         "question": "How did engineers correct for the relativistic timing difference?",
-        "options": ["By replacing the clocks daily", "By deliberately building the satellite clocks to run slightly slow before launch", "By ignoring the error entirely", "By adding more satellites"],
+        "options": [
+          "By replacing the clocks daily",
+          "By deliberately building the satellite clocks to run slightly slow before launch",
+          "By ignoring the error entirely",
+          "By adding more satellites"
+        ],
         "correct": 1
       }
     ]
@@ -416,17 +641,662 @@
     "quiz": [
       {
         "question": "What does the article say actually happens when you send an email?",
-        "options": ["Nothing physical occurs", "It travels through physical infrastructure that consumes real electricity", "It is transmitted with zero energy cost", "It only uses energy on the sender's device"],
+        "options": [
+          "Nothing physical occurs",
+          "It travels through physical infrastructure that consumes real electricity",
+          "It is transmitted with zero energy cost",
+          "It only uses energy on the sender's device"
+        ],
         "correct": 1
       },
       {
         "question": "What increases an email's carbon footprint the most, according to the article?",
-        "options": ["Using capital letters", "Large attachments", "Writing in a foreign language", "Sending it at night"],
+        "options": [
+          "Using capital letters",
+          "Large attachments",
+          "Writing in a foreign language",
+          "Sending it at night"
+        ],
         "correct": 1
       },
       {
         "question": "What is noted as accounting for a surprisingly large share of email emissions?",
-        "options": ["Emails from businesses", "Spam that is often never opened", "Emails sent from mobile phones", "International emails only"],
+        "options": [
+          "Emails from businesses",
+          "Spam that is often never opened",
+          "Emails sent from mobile phones",
+          "International emails only"
+        ],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "art_017",
+    "title": "The Linguistic Rainbow",
+    "paragraphs": [
+      "Across different cultures, languages do not name colors at random. Instead, they follow a predictable evolutionary sequence when developing color terms. If a language has only two color words, they are always equivalent to black and white, or dark and light.",
+      "If a third color term is introduced, it is invariably red. The next colors to appear are green and yellow, followed by blue. Blue is almost always the last major color category to be named in any language.",
+      "This sequence explains why ancient texts, such as Homer's epics, never mention the color blue. Homer famously described the sea as \"wine-dark,\" not because the Mediterranean was a different color, but because his language lacked a word to distinguish blue from dark hues.",
+      "Modern experiments suggest that the order of color naming reflects how human eyes perceive different light wavelengths. Colors that stimulate our visual system most intensely are named first, showing that language development is deeply tied to biology."
+    ],
+    "quiz": [
+      {
+        "question": "Which color term is always the third one introduced in a language's development?",
+        "options": [
+          "Green",
+          "Blue",
+          "Red",
+          "Yellow"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "Why did Homer describe the sea as \"wine-dark\"?",
+        "options": [
+          "The sea was chemically different in ancient times",
+          "His language did not have a word for blue",
+          "He was writing only at sunset",
+          "He preferred metaphorical descriptions"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "What determines the sequence in which color names develop in languages?",
+        "options": [
+          "The availability of natural pigments",
+          "How human eyes perceive different wavelengths of light",
+          "Decisions by ancient tribal leaders",
+          "The complexity of the language's grammar"
+        ],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "art_018",
+    "title": "The Forest's Underground Network",
+    "paragraphs": [
+      "Beneath the forest floor lies a complex network of fungal threads that connects individual trees. Known as mycorrhizal networks, these subterranean webs allow trees to share water, carbon, and vital nutrients with one another. This biological communication channel stretches across vast distances, linking entire groves.",
+      "Through this partnership, mature trees can nurture younger seedlings by funneling essential resources to them. When a tree is attacked by pests, it can send warning signals through the network, prompting neighboring trees to raise their chemical defenses. This proactive alert system increases the survival rate of the entire forest.",
+      "The relationship between the trees and the fungi is mutual and highly beneficial. The fungi receive sugars produced by the trees through photosynthesis, while the trees gain access to minerals that the fungi extract from the soil. Neither partner could easily thrive without this constant exchange of elements.",
+      "This hidden cooperation challenges the traditional view of forests as arenas of pure competition. Instead, a forest functions more like a single, interconnected superorganism, where individual survival depends heavily on mutual support. The health of a single tree is intimately tied to the network."
+    ],
+    "quiz": [
+      {
+        "question": "What are mycorrhizal networks made of?",
+        "options": [
+          "Decaying tree roots",
+          "Fungal threads",
+          "Underground water streams",
+          "Burrowing insect tunnels"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "How do trees respond when they receive warning signals about pests through the network?",
+        "options": [
+          "They shed their leaves immediately",
+          "They stop absorbing water",
+          "They raise their chemical defenses",
+          "They sever their connection to the network"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "What do fungi receive from trees in their mutual relationship?",
+        "options": [
+          "Minerals from the soil",
+          "Protection from sunlight",
+          "Sugars produced through photosynthesis",
+          "Carbon dioxide from the air"
+        ],
+        "correct": 2
+      }
+    ]
+  },
+  {
+    "id": "art_019",
+    "title": "The Mechanical Evolution of QWERTY",
+    "paragraphs": [
+      "The layout of the modern computer keyboard seems counterintuitive, with frequently used letters scattered seemingly at random. This design, known as QWERTY, was actually inherited from early mechanical typewriters in the late nineteenth century.",
+      "In early typewriters, each key was connected to a metal hammer that struck an inked ribbon to imprint letters onto paper. If a typist typed too quickly, keys placed close together would collide and jam, forcing the typist to stop and manually untangle the mechanism.",
+      "To solve this problem, inventor Christopher Sholes rearranged the keyboard layout. By placing common letter pairs, like \"S\" and \"T,\" on opposite sides of the board, he separated the mechanical hammers to prevent them from colliding.",
+      "Although modern computer keyboards have no mechanical hammers to jam, the QWERTY layout remains the universal standard. Having learned this layout, millions of typists resisted switching to faster, more ergonomic alternatives, proving the power of historical habit."
+    ],
+    "quiz": [
+      {
+        "question": "What originally caused early typewriter keys to jam?",
+        "options": [
+          "Typing too quickly with keys placed close together",
+          "Running out of ink on the ribbon",
+          "Dust building up inside the carriage",
+          "The keys being made of soft wood"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Who is credited with inventing the QWERTY layout?",
+        "options": [
+          "Thomas Edison",
+          "Christopher Sholes",
+          "Alexander Graham Bell",
+          "John Qwerty"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Why do modern computer keyboards still use the QWERTY layout?",
+        "options": [
+          "It is mechanically necessary for digital circuits",
+          "Typists are reluctant to change a deeply ingrained habit",
+          "It has been proven to be the absolute fastest layout",
+          "Modern laws require all keyboards to be identical"
+        ],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "art_020",
+    "title": "The Bouba-Kiki Effect",
+    "paragraphs": [
+      "Most people assume that the sounds of words have no inherent connection to their meanings. However, a famous psychological experiment suggests that the human brain naturally maps speech sounds to visual shapes in a highly predictable way.",
+      "In the study, participants were shown two shapes: one was soft and rounded, while the other was sharp and jagged. They were told that one shape was named \"Bouba\" and the other \"Kiki,\" and were asked to match the names.",
+      "Over ninety percent of people matched the rounded shape with \"Bouba\" and the jagged shape with \"Kiki.\" This consensus held true across different age groups, cultures, and even languages that do not use the Latin alphabet.",
+      "Researchers believe this occurs because the brain performs cross-modal mapping, linking the physical sensation of making a round sound in the mouth with the visual roundness of the shape. This shows that language may not be entirely arbitrary."
+    ],
+    "quiz": [
+      {
+        "question": "What two shapes were participants shown in the Bouba-Kiki study?",
+        "options": [
+          "A square and a circle",
+          "A soft, rounded shape and a sharp, jagged shape",
+          "A straight line and a spiral",
+          "A large triangle and a small oval"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "What percentage of people matched the rounded shape with the name \"Bouba\"?",
+        "options": [
+          "About fifty percent",
+          "Nearly seventy-five percent",
+          "Over ninety percent",
+          "Exactly one hundred percent"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "Why do researchers believe this mapping occurs?",
+        "options": [
+          "Because people are taught these associations in school",
+          "Because the letters look like the shapes",
+          "Because the brain links mouth movements with visual shapes",
+          "Because the word meanings are identical in ancient languages"
+        ],
+        "correct": 2
+      }
+    ]
+  },
+  {
+    "id": "art_021",
+    "title": "The Stationary Currency of Yap",
+    "paragraphs": [
+      "On the Pacific island of Yap, historic transactions were settled using giant stone disks known as Rai stones. Carved from limestone on distant islands and transported by canoe, these stones could measure up to twelve feet in diameter.",
+      "Because of their immense size and weight, moving a Rai stone was dangerous and logistically difficult. To simplify commerce, the islanders established a system where the physical stones rarely had to be moved when ownership changed.",
+      "Instead, a transaction was completed simply by public agreement. The entire community acknowledged that the stone now belonged to a new owner, even if the disk remained sitting in the exact same spot in a village.",
+      "In one famous case, a canoe carrying a large Rai stone sank during a storm. Because the crew testified to the stone's size and quality, the community agreed it still had value, proving that currency is based on collective trust."
+    ],
+    "quiz": [
+      {
+        "question": "What were Rai stones made of?",
+        "options": [
+          "Volcanic basalt",
+          "Limestone from distant islands",
+          "Compressed clay",
+          "Polished granite"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "How did ownership of Rai stones change during transactions?",
+        "options": [
+          "The stones were rolled to the new owner's yard",
+          "The stones were broken into smaller pieces",
+          "The community agreed on the change of ownership publicly",
+          "A paper deed was signed by the island chief"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "What happened to the Rai stone that sank during a storm?",
+        "options": [
+          "It was declared worthless by the community",
+          "It was retrieved by deep-sea divers",
+          "It retained its value because the community trusted its existence",
+          "It was replaced by a wooden replica"
+        ],
+        "correct": 2
+      }
+    ]
+  },
+  {
+    "id": "art_022",
+    "title": "The Secret Chemistry of Slippery Ice",
+    "paragraphs": [
+      "For generations, scientists believed that ice was slippery because the pressure of a boot or blade melted a thin layer of water. However, calculations showed that this pressure is rarely high enough to melt ice at typical winter temperatures.",
+      "The real explanation is far more surprising. Even at temperatures well below freezing, the surface of ice is naturally coated in a microscopic, liquid-like layer of molecules that are not fully locked into a rigid crystal structure.",
+      "Because these surface molecules have no other ice molecules above them to hold them in place, they wobble and roll like tiny ball bearings. This creates a highly mobile, disordered boundary layer that is only a few molecules thick.",
+      "When you step onto ice, your boot slides across these rolling surface molecules rather than solid ice. This intrinsic liquid-like layer makes ice uniquely slippery, showing that the interface between materials can behave in unexpected ways."
+    ],
+    "quiz": [
+      {
+        "question": "What did scientists historically believe made ice slippery?",
+        "options": [
+          "Frictional heat alone",
+          "Pressure melting a thin layer of water",
+          "The chemical purity of the water",
+          "Microscopic cracks in the surface"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "What is actually found on the surface of ice even below freezing?",
+        "options": [
+          "A layer of dust and dirt",
+          "A microscopic, liquid-like layer of mobile molecules",
+          "A perfectly flat crystal plane",
+          "Tiny pockets of trapped air"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Why do the surface molecules of ice wobble and roll?",
+        "options": [
+          "Because they are heated by the sun",
+          "Because they have no other ice molecules above to hold them",
+          "Because they are chemically different from the ice below",
+          "Because they are under high pressure"
+        ],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "art_023",
+    "title": "The Year Without a Summer",
+    "paragraphs": [
+      "In the spring of 1816, residents of New England and Europe were bewildered by snowstorms in June and heavy frost in July. Crops failed, food prices soared, and the period became known as the \"Year Without a Summer.\"",
+      "The cause of this climate disaster lay thousands of miles away in Indonesia. In April 1815, Mount Tambora erupted in the largest volcanic event in recorded history, blasting millions of tons of ash and sulfur dioxide into the atmosphere.",
+      "This volcanic cloud spread globally, forming a high-altitude haze that reflected incoming sunlight back into space. The resulting drop in global temperatures disrupted weather patterns, causing widespread crop failures and famine across the Northern Hemisphere.",
+      "The strange weather also had unexpected cultural impacts. Trapped indoors by constant rain in Switzerland, author Mary Shelley was inspired by the gloomy atmosphere to write her famous gothic novel, Frankenstein, turning a planetary disaster into literary history."
+    ],
+    "quiz": [
+      {
+        "question": "What caused the \"Year Without a Summer\" in 1816?",
+        "options": [
+          "A sudden shift in Earth's orbit",
+          "The volcanic eruption of Mount Tambora",
+          "An unusually long solar eclipse",
+          "A series of massive forest fires"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "How did the volcanic cloud affect global temperatures?",
+        "options": [
+          "It trapped heat, causing global warming",
+          "It reflected sunlight back into space, dropping temperatures",
+          "It had no effect on temperature",
+          "It warmed the oceans while cooling the land"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Which famous novel was inspired by the gloomy weather of 1816?",
+        "options": [
+          "Dracula",
+          "Frankenstein",
+          "The Hobbit",
+          "Moby Dick"
+        ],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "art_024",
+    "title": "The Indestructible Water Bears",
+    "paragraphs": [
+      "Tardigrades, commonly known as water bears, are microscopic animals famous for surviving in the most extreme environments on Earth. They can endure boiling water, freezing temperatures, intense radiation, and even the vacuum of outer space. These eight-legged creatures are found almost everywhere, from deep oceans to high mountains.",
+      "The key to their survival is a process called cryptobiosis, which suspends all metabolic activity. When environmental conditions deteriorate, a tardigrade can expel almost all the water from its body, curling up into a dry, motionless state called a tun. In this dormant form, they become practically indestructible.",
+      "In this dry state, the tardigrade's metabolism drops to less than one-hundredth of a percent of its normal rate. It produces specialized proteins that turn its cellular fluid into a glass-like solid, protecting its internal structures from damage. This process prevents the cells from collapsing or tearing apart.",
+      "When water becomes available again, the tardigrade rehydrates and returns to life within a few hours. This remarkable ability allows these tiny creatures to endure extreme conditions that would instantly kill almost any other organism, making them a subject of intense scientific study."
+    ],
+    "quiz": [
+      {
+        "question": "What is the dry, motionless state of a tardigrade called?",
+        "options": [
+          "A cocoon",
+          "A tun",
+          "A spore",
+          "A fossil"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "What happens to a tardigrade's body during cryptobiosis?",
+        "options": [
+          "It grows a thick outer shell",
+          "It expels almost all the water from its body",
+          "It doubles its metabolism to stay warm",
+          "It burrows deep into the soil"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "How does a tardigrade protect its cellular structure in a dry state?",
+        "options": [
+          "By wrapping itself in silk threads",
+          "By producing proteins that turn its cellular fluid into glass",
+          "By constantly moving its microscopic legs",
+          "By absorbing minerals from the surrounding rocks"
+        ],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "art_025",
+    "title": "How What We See Dictates What We Hear",
+    "paragraphs": [
+      "We tend to think of hearing as an independent sense, but our brains constantly merge auditory signals with visual information to interpret speech. A striking and famous demonstration of this sensory integration is known as the McGurk effect. It reveals that what we hear is not always what is played.",
+      "In a classic experiment, a video shows a person's mouth making the shape for the syllable \"ga-ga.\" However, the audio track plays the sound \"ba-ba.\" Instead of hearing either separate sound, the viewer's brain combines these conflicting signals, and they actually hear \"da-da.\"",
+      "If the viewer closes their eyes, they immediately hear the true audio track of \"ba-ba\" without any difficulty. As soon as they open their eyes and look at the moving mouth again, the illusion returns, overriding their auditory perception and altering their reality.",
+      "This illusion clearly demonstrates that the brain prioritizes visual cues when interpreting speech sounds. It shows that face-to-face communication is a complex, multi-sensory experience, where what we see directly shapes what we believe we hear in our daily interactions."
+    ],
+    "quiz": [
+      {
+        "question": "What does the McGurk effect demonstrate about human perception?",
+        "options": [
+          "Our hearing is completely independent of our sight",
+          "Our brains combine auditory and visual signals to interpret speech",
+          "We cannot hear high-pitched sounds when blinking",
+          "Visual signals are always ignored by the brain"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "In the McGurk demonstration, what does the viewer hear when the audio says \"ba-ba\" but the mouth shows \"ga-ga\"?",
+        "options": [
+          "ba-ba",
+          "ga-ga",
+          "da-da",
+          "nothing at all"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "How can a viewer temporarily stop the McGurk illusion and hear the actual sound?",
+        "options": [
+          "By plugging their ears",
+          "By closing their eyes",
+          "By whispering the sound themselves",
+          "By turning up the volume"
+        ],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "art_026",
+    "title": "The Whistled Language of La Gomera",
+    "paragraphs": [
+      "On the steep, volcanic slopes of La Gomera, one of Spain's Canary Islands, residents developed a unique way to communicate across deep ravines. Known as Silbo Gomera, it is a fully whistled language that has existed for centuries. The geography of the island made traditional shouting ineffective.",
+      "Silbo Gomera is not a simple code of basic commands or signals. Instead, it is a sophisticated, whistled translation of Spanish, where whistles of varying pitches and durations mimic the vowels and consonants of spoken words. Almost any spoken sentence can be whistled by an expert.",
+      "A skilled whistler, or silbador, can project their voice up to five kilometers across the island's mountainous terrain. This allowed shepherds and farmers to exchange detailed news or warnings without traveling long, arduous paths through the steep valleys. It was a vital tool for rural survival.",
+      "As modern roads, phones, and digital communication arrived, Silbo Gomera was threatened with rapid extinction. However, the local government stepped in and made it a compulsory subject in schools. This educational policy has successfully preserved this ancient cultural treasure for future generations."
+    ],
+    "quiz": [
+      {
+        "question": "Where is the whistled language of Silbo Gomera spoken?",
+        "options": [
+          "The Andes Mountains",
+          "The Canary Islands",
+          "The Swiss Alps",
+          "The Hawaiian Islands"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "How does Silbo Gomera represent spoken language?",
+        "options": [
+          "By using simple codes for only ten basic words",
+          "By mimicking Spanish vowels and consonants with whistles",
+          "By using drums in combination with whistling",
+          "By translating English words into bird calls"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "How was Silbo Gomera saved from extinction?",
+        "options": [
+          "It was adopted as a secret military code",
+          "The local government made it a compulsory school subject",
+          "It became a popular theme in pop music",
+          "Tourists were required to learn it before visiting"
+        ],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "art_027",
+    "title": "The Physics of Noise Cancellation",
+    "paragraphs": [
+      "Step onto a crowded airplane, and flipping a switch on your headphones can instantly quiet the roar of the engines. This common consumer technology, known as active noise cancellation, relies on a fundamental principle of wave physics. It works by actively fighting noise rather than just blocking it.",
+      "Sound travels through the air in waves of high and low pressure, which our ears perceive as noise. Active noise-canceling headphones contain tiny, built-in microphones that constantly listen to the ambient sounds of your environment, capturing external vibrations in real time.",
+      "When the microphone detects an incoming sound wave, the headphones' internal electronics instantly generate an identical wave. However, they shift its phase by exactly one-hundred and eighty degrees, creating a perfect mirror image of the noise wave before it reaches your ear canal.",
+      "When these two opposing waves meet, they cancel each other out in a process called destructive interference. The high-pressure crest of the ambient noise meets the low-pressure trough of the generated wave, leaving only silence. This clean acoustic space lets you enjoy your music."
+    ],
+    "quiz": [
+      {
+        "question": "What physical feature of headphones enables active noise cancellation?",
+        "options": [
+          "Thicker ear cushions",
+          "Built-in microphones that listen to ambient sound",
+          "A heavy battery pack",
+          "A special shape that blocks all air"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "What is the relationship between the ambient sound wave and the wave generated by the headphones?",
+        "options": [
+          "They are identical and in phase",
+          "The generated wave is twice as loud",
+          "The generated wave is a mirror image shifted by 180 degrees",
+          "The generated wave has a much higher frequency"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "What is the process called when two opposing waves cancel each other out?",
+        "options": [
+          "Constructive interference",
+          "Destructive interference",
+          "Wave resonance",
+          "Phase alignment"
+        ],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "art_028",
+    "title": "The Unclaimed Desert of Bir Tawil",
+    "paragraphs": [
+      "In a world where nations regularly contest tiny islands and remote borders, there is one habitable place on Earth that is completely unclaimed. This territory, known as Bir Tawil, is a trapezoid-shaped desert. It is a dry, mountainous region where no permanent population lives.",
+      "Located between Egypt and Sudan, Bir Tawil spans nearly eight hundred square miles of sand and rock. It remains unclaimed because of a historical border dispute dating back to British colonial maps drawn around the turn of the twentieth century, which created overlapping claims.",
+      "In 1899 and 1902, the British authorities drew two conflicting borders. Under the later treaty of 1902, Egypt would claim a valuable, fertile coastal region called the Hala'ib Triangle, while Sudan would receive the dry interior territory of Bir Tawil.",
+      "Because the Hala'ib Triangle is much larger and wealthier, both nations claim the specific border that gives them the Triangle. Since claiming Bir Tawil would mean accepting the border that forfeits the Triangle, both nations deliberately ignore it, leaving it completely stateless."
+    ],
+    "quiz": [
+      {
+        "question": "Where is the unclaimed territory of Bir Tawil located?",
+        "options": [
+          "Between Egypt and Sudan",
+          "Between Libya and Egypt",
+          "Between Sudan and Ethiopia",
+          "Between Saudi Arabia and Yemen"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Why do both Egypt and Sudan refuse to claim Bir Tawil?",
+        "options": [
+          "The territory contains active volcanoes",
+          "Claiming it would mean giving up their claim to the wealthier Hala'ib Triangle",
+          "International treaties ban anyone from settling there",
+          "It is legally protected as a wildlife sanctuary"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "When were the conflicting borders that created the dispute drawn?",
+        "options": [
+          "During the Middle Ages",
+          "Around the turn of the twentieth century",
+          "Directly after World War II",
+          "In the early twenty-first century"
+        ],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "art_029",
+    "title": "The Fragile Empire of the Banana",
+    "paragraphs": [
+      "Every banana you buy in a modern supermarket is genetically identical to the next. This commercial variety, called the Cavendish banana, is a clone, grown from cuttings rather than seeds. This means that every single Cavendish tree is a physical extension of a single plant.",
+      "While cloning ensures a consistent size, shape, taste, and ripening speed, it also leaves the global crop highly vulnerable. Because every banana plant shares the exact same DNA, they all share the exact same weaknesses, making them susceptible to a single outbreak.",
+      "This extreme genetic uniformity has proved disastrous in the past. In the mid-twentieth century, the Gros Michel banana, which was sweeter and sturdier than the Cavendish, was wiped out of global commerce by Panama disease. The entire industry had to quickly pivot to survive.",
+      "A new strain of that same soil fungus is now spreading worldwide, threatening the Cavendish banana. Without genetic diversity, the banana industry faces a race against time to breed a new resistant replacement before the current crop disappears from grocery store shelves completely."
+    ],
+    "quiz": [
+      {
+        "question": "How are modern Cavendish bananas grown?",
+        "options": [
+          "From seeds planted in rich soil",
+          "As clones grown from cuttings",
+          "By cross-breeding apples and melons",
+          "Through hydroponic water systems only"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "What is the main danger of genetic uniformity in bananas?",
+        "options": [
+          "The fruit becomes tasteless over time",
+          "A single disease can wipe out the entire global crop",
+          "The bananas grow to be too large to ship",
+          "The plants require twice as much water"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "What happened to the Gros Michel banana variety?",
+        "options": [
+          "It was replaced because it tasted bad",
+          "It was wiped out by Panama disease",
+          "It went extinct due to a lack of water",
+          "It is still the main banana sold today"
+        ],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "art_030",
+    "title": "The Luxury Paradox of Veblen Goods",
+    "paragraphs": [
+      "According to the standard laws of economics, demand for a product should decrease as its price rises because consumers seek value. However, a strange class of luxury items known as Veblen goods completely defies this rule, turning the law of demand on its head.",
+      "Named after the American economist Thorstein Veblen, these goods see their consumer demand increase as they become more expensive. Common examples include designer handbags, luxury Swiss watches, and high-end sports cars. They are purchased primarily to show off one's purchasing power.",
+      "This occurs because the value of a Veblen good lies not in its physical utility, but in its status as a visible signal of wealth. Buying such an expensive item allows the owner to engage in conspicuous consumption, demonstrating their social standing to peers.",
+      "If the price of a Veblen good drops, it loses its exclusive status, and consumer demand actually falls. In the competitive world of high status, high prices are not a deterrent, but rather the primary selling point that attracts wealthy buyers."
+    ],
+    "quiz": [
+      {
+        "question": "What is a Veblen good?",
+        "options": [
+          "A cheap item that everyone buys",
+          "A luxury item for which demand increases as the price rises",
+          "An item that is illegal to sell",
+          "A product that is only sold in winter"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Who are Veblen goods named after?",
+        "options": [
+          "An ancient Greek merchant",
+          "A nineteenth-century economist",
+          "A modern handbag designer",
+          "The president of a sports car company"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Why does demand for a Veblen good fall if its price drops?",
+        "options": [
+          "The quality of the material is reduced",
+          "It loses its exclusive status as a symbol of wealth",
+          "The company stops advertising it",
+          "It becomes too difficult to buy"
+        ],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "art_031",
+    "title": "How Lightning Travels Upward",
+    "paragraphs": [
+      "When watching a thunderstorm, a bolt of lightning appears to strike strike down from the sky. However, the complex physics of lightning reveals that the brightest and most powerful part of the flash actually travels upward. What we see is the final stage of a process.",
+      "As a storm cloud builds, static electricity accumulates in the clouds, creating a strong negative charge at the base. This charge induces an opposing positive charge on the ground below, especially on tall objects like trees, buildings, and hills.",
+      "The cloud releases a stream of negative charge called a stepped leader, which branches downward toward the ground in discrete steps. When it gets close, the positive charge on the ground leaps up in an upward leader to meet it in mid-air.",
+      "Once the two leaders connect, a massive electrical current surges from the ground to the cloud along the established path. This return stroke creates the bright, visible flash that we associate with lightning, showing it is a two-way electrical connection."
+    ],
+    "quiz": [
+      {
+        "question": "What is the stepped leader in a lightning strike?",
+        "options": [
+          "A charge that leaps from the ocean to the sky",
+          "A stream of negative charge that branches downward from the cloud",
+          "The sound wave created by thunder",
+          "A type of cloud formation"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "What is the name of the bright, visible part of the lightning flash that travels upward?",
+        "options": [
+          "The stepped leader",
+          "The return stroke",
+          "The static surge",
+          "The positive charge"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "How does the ground respond when the stepped leader gets close?",
+        "options": [
+          "It becomes negatively charged",
+          "Positive charge leaps up in an upward leader to meet it",
+          "It releases a shower of sparks",
+          "It absorbs the charge with no reaction"
+        ],
         "correct": 1
       }
     ]
