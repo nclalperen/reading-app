@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Reading App — practice comprehension, one word at a time</title>
+<meta name="description" content="A personal reading-comprehension app: random articles, tap-to-define words, quizzes, and a vocabulary memory game." />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=Libre+Franklin:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<div class="app-shell">
+
+  <!-- Left index-tab navigation -->
+  <nav class="tab-rail" aria-label="Main navigation">
+    <div class="rail-mark">Rd<small>Reading App</small></div>
+
+    <button class="tab-btn active" id="tab-read" data-view="read">
+      <span class="tab-icon" aria-hidden="true">&#128214;</span>
+      Read
+    </button>
+    <button class="tab-btn" id="tab-history" data-view="history">
+      <span class="tab-icon" aria-hidden="true">&#128204;</span>
+      Words
+      <span class="tab-count" id="words-count">0</span>
+    </button>
+    <button class="tab-btn" id="tab-practice" data-view="practice">
+      <span class="tab-icon" aria-hidden="true">&#127918;</span>
+      Practice
+    </button>
+    <button class="tab-btn" id="tab-settings" data-view="settings">
+      <span class="tab-icon" aria-hidden="true">&#9881;</span>
+      Settings
+    </button>
+  </nav>
+
+  <!-- READ view -->
+  <main class="view" id="view-read">
+    <p class="view-eyebrow">Today's passage</p>
+    <h1 class="view-title" id="view-read-title">Reading</h1>
+
+    <div class="article-card" id="article-card">
+      <p class="article-kicker" id="article-kicker">Loading&hellip;</p>
+      <h2 class="article-title" id="article-title"></h2>
+      <div class="article-body" id="article-body"></div>
+
+      <div class="article-actions" id="article-actions">
+        <button class="btn btn-primary" id="btn-take-quiz">Take the quiz</button>
+        <button class="btn btn-ghost" id="btn-new-article">Read a different article</button>
+      </div>
+
+      <div class="quiz-block" id="quiz-block" hidden></div>
+    </div>
+  </main>
+
+  <!-- HISTORY / specimen collection view -->
+  <section class="view" id="view-history" hidden>
+    <p class="view-eyebrow">Collected on your reading walks</p>
+    <h1 class="view-title">Your words</h1>
+
+    <div class="specimen-toolbar">
+      <p class="specimen-count" id="history-count">0 words collected</p>
+    </div>
+
+    <div class="specimen-grid" id="history-grid"></div>
+    <div class="empty-state" id="history-empty" hidden>
+      No words yet. Tap any word while reading to add it to your collection.
+    </div>
+  </section>
+
+  <!-- PRACTICE / memory game view -->
+  <section class="view" id="view-practice" hidden>
+    <p class="view-eyebrow">Recall</p>
+    <h1 class="view-title">Practice your words</h1>
+    <div id="practice-area"></div>
+  </section>
+
+  <!-- SETTINGS view -->
+  <section class="view" id="view-settings" hidden>
+    <p class="view-eyebrow">Preferences</p>
+    <h1 class="view-title">Settings</h1>
+
+    <div class="settings-card">
+      <div class="settings-row">
+        <div>
+          <div class="settings-label">Show translation</div>
+          <div class="settings-sub">Adds a translation line to the word popup</div>
+        </div>
+        <label class="toggle">
+          <input type="checkbox" id="settings-translation-toggle" />
+          <span class="toggle-track"></span>
+        </label>
+      </div>
+      <div class="settings-row">
+        <div>
+          <div class="settings-label">Translation language</div>
+          <div class="settings-sub">Used when translation is on</div>
+        </div>
+        <select id="settings-lang-select">
+          <option value="es">Spanish</option>
+          <option value="fr">French</option>
+        </select>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<!-- Word definition popup -->
+<div class="word-popup-backdrop" id="word-popup-backdrop" hidden>
+  <div class="word-popup" role="dialog" aria-modal="true" aria-labelledby="word-popup-word">
+    <button class="word-popup-close" id="word-popup-close" aria-label="Close">&times;</button>
+    <p class="word-popup-status">Collected</p>
+    <h2 class="word-popup-word" id="word-popup-word"></h2>
+
+    <div id="word-popup-loading" class="word-popup-loading" hidden>Looking it up&hellip;</div>
+
+    <div id="word-popup-content" hidden>
+      <p class="word-popup-def" id="word-popup-def"></p>
+
+      <div id="word-popup-examples-wrap">
+        <p class="word-popup-section-label">Used in a sentence</p>
+        <ul class="word-popup-examples" id="word-popup-examples"></ul>
+      </div>
+
+      <div id="word-popup-translation-wrap">
+        <p class="word-popup-section-label">Translation</p>
+        <p class="word-popup-translation" id="word-popup-translation"></p>
+      </div>
+    </div>
+
+    <div class="word-popup-actions">
+      <button class="btn btn-danger btn-small" id="word-popup-remove">Remove from collection</button>
+    </div>
+  </div>
+</div>
+
+<script src="js/storage.js"></script>
+<script src="js/dictionary.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

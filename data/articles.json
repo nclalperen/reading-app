@@ -1,0 +1,110 @@
+[
+  {
+    "id": "art_001",
+    "title": "The Secret Life of Coral Reefs",
+    "paragraphs": [
+      "Coral reefs are often called the rainforests of the sea, and the comparison is not an exaggeration. Though they cover less than one percent of the ocean floor, reefs shelter nearly a quarter of all known marine species. A single reef can host thousands of organisms, from parrotfish grazing on algae to camouflaged octopuses waiting in crevices.",
+      "What looks like a colorful rock is actually a colony of tiny animals called polyps. Each polyp secretes a hard skeleton of calcium carbonate, and over centuries these skeletons accumulate into the sprawling structures we recognize as reefs. Polyps have a remarkable partnership with algae, which live inside their tissues and provide most of their energy through photosynthesis.",
+      "This partnership is also the reef's greatest vulnerability. When water temperatures rise even slightly, stressed polyps expel their algae, a process known as bleaching. A bleached reef is not dead, but it is starving, and if warm conditions persist for too long, the coral will not recover. Scientists now monitor ocean temperatures closely, hoping to predict bleaching events before they devastate entire ecosystems.",
+      "Despite these threats, reefs are resilient in ways researchers are only beginning to understand. Some coral populations appear to tolerate heat better than others, and marine biologists are studying whether these hardier strains could be used to restore damaged reefs. The fate of coral reefs remains uncertain, but the effort to protect them continues to grow."
+    ],
+    "quiz": [
+      {
+        "question": "According to the article, how much of the ocean floor do coral reefs cover?",
+        "options": ["Nearly half", "About one percent or less", "Roughly ten percent", "The majority of it"],
+        "correct": 1
+      },
+      {
+        "question": "What do the algae living inside coral polyps provide?",
+        "options": ["A type of predatory defense", "Most of the polyp's energy through photosynthesis", "The hard outer skeleton", "A disease that causes bleaching"],
+        "correct": 1
+      },
+      {
+        "question": "What happens during coral bleaching?",
+        "options": ["Polyps build a thicker skeleton", "Coral changes color permanently but stays healthy", "Stressed polyps expel their algae, leaving them starving", "Reefs sink into cooler water"],
+        "correct": 2
+      }
+    ]
+  },
+  {
+    "id": "art_002",
+    "title": "How Sourdough Bread Learned to Rise",
+    "paragraphs": [
+      "Long before commercial yeast existed in tidy packets, bakers relied on a living culture of wild yeast and bacteria to make their bread rise. This culture, known as a starter, is created by mixing flour and water and simply waiting. Over a few days, microorganisms drifting in the air and hiding in the flour begin to colonize the mixture, transforming it into something alive.",
+      "A healthy starter is fed regularly with fresh flour and water, which keeps its population of yeast and bacteria thriving. The yeast produces carbon dioxide, which gets trapped in the dough's gluten network and causes it to expand. The bacteria, meanwhile, produce acids that give sourdough its distinctive tang.",
+      "Because every starter contains a slightly different mix of microorganisms, no two loaves of sourdough are ever quite identical. A starter kept in a humid kitchen in New Orleans will develop a different flavor profile than one nurtured in a dry apartment in Denver. Bakers often name their starters and pass small portions down to friends, treating them almost like heirlooms.",
+      "Sourdough fell out of fashion for much of the twentieth century as commercial yeast made baking faster and more predictable. But the slow fermentation process has its advocates: some nutritionists argue that the extended fermentation makes the bread easier to digest. Whether or not that claim holds up, sourdough's tangy comeback shows no signs of slowing down."
+    ],
+    "quiz": [
+      {
+        "question": "What is a sourdough starter made from?",
+        "options": ["Commercial yeast and sugar", "Flour and water combined with wild microorganisms", "Milk and bacteria only", "A packet of dried yeast"],
+        "correct": 1
+      },
+      {
+        "question": "What causes sourdough's distinctive tangy flavor?",
+        "options": ["Acids produced by bacteria in the starter", "Added vinegar", "The baking temperature", "Carbon dioxide trapped in the gluten"],
+        "correct": 0
+      },
+      {
+        "question": "Why might two sourdough starters taste different from each other?",
+        "options": ["They always use different flour brands", "They contain different mixes of local microorganisms", "One is older than the other by law", "Only professional bakers can make good starters"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "art_003",
+    "title": "The Night the Northern Lights Came to Ohio",
+    "paragraphs": [
+      "On a clear evening in May, residents across the American Midwest stepped outside to find the sky doing something unusual. Faint curtains of green and magenta light rippled overhead, visible in states that almost never see the aurora borealis. Social media filled with photos from backyards in Ohio, Indiana, and even northern Georgia.",
+      "The aurora is normally confined to regions near the poles, where Earth's magnetic field funnels charged particles from the sun into the upper atmosphere. Those particles collide with oxygen and nitrogen molecules, releasing bursts of colored light. But when the sun unleashes an especially powerful eruption of charged particles, called a coronal mass ejection, the resulting geomagnetic storm can push the aurora much farther from the poles than usual.",
+      "The May display was triggered by one of the strongest geomagnetic storms in two decades. Solar physicists had tracked a cluster of sunspots for days, watching as they released a rapid sequence of flares. When the charged particles finally reached Earth, they interacted with the atmosphere so intensely that the aurora became visible at latitudes that typically never glimpse it.",
+      "For most observers, the event was a harmless spectacle, but strong geomagnetic storms can also disrupt satellites, radio communications, and power grids. Utility companies and satellite operators monitor space weather forecasts for exactly this reason, since a sufficiently intense storm could cause real damage. For one night, however, the same forces that threaten infrastructure simply painted the sky."
+    ],
+    "quiz": [
+      {
+        "question": "What normally confines the aurora borealis to regions near the poles?",
+        "options": ["Earth's magnetic field directing particles there", "Cloud cover everywhere else", "A lack of oxygen elsewhere", "Government restrictions"],
+        "correct": 0
+      },
+      {
+        "question": "What caused the unusually widespread aurora described in the article?",
+        "options": ["An unusually cold spring", "A powerful geomagnetic storm from a coronal mass ejection", "A meteor shower", "Increased city lighting"],
+        "correct": 1
+      },
+      {
+        "question": "Besides the visible light show, what else can strong geomagnetic storms affect?",
+        "options": ["Ocean tides", "Satellites, radio communications, and power grids", "The length of the day", "Only airplane schedules"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "art_004",
+    "title": "Why Octopuses Change Color",
+    "paragraphs": [
+      "An octopus can shift from mottled brown to brilliant white in less than a second. Thousands of specialized skin cells called chromatophores act almost like tiny balloons filled with pigment, expanding and contracting under direct muscular control.",
+      "Beneath the chromatophores sit two more layers of color-changing cells: iridophores, which reflect light to produce shimmering blues and greens, and leucophores, which scatter light to create white. Together, these three layers let an octopus produce an enormous range of colors and patterns, often within a fraction of a second.",
+      "Color change serves several purposes. Most famously, it allows octopuses to camouflage against rock, coral, or sand, disappearing almost completely from predators. But researchers have also documented octopuses changing color during apparent displays of aggression, courtship, and even what looks like curiosity, suggesting the skin may function as a kind of visible mood signal.",
+      "Remarkably, octopuses are colorblind, at least according to conventional tests of their eyes. Some researchers now suspect that light-sensitive proteins embedded directly in the skin might allow the animal to sense color across its entire body, effectively letting it see with its skin well enough to match colors it cannot consciously perceive. The full explanation is still being investigated."
+    ],
+    "quiz": [
+      {
+        "question": "What are chromatophores?",
+        "options": ["Specialized skin cells that expand and contract to display pigment", "The octopus's primary eyes", "A type of coral the octopus eats", "Muscles used only for swimming"],
+        "correct": 0
+      },
+      {
+        "question": "What do iridophores do?",
+        "options": ["Produce a foul smell", "Reflect light to create shimmering blues and greens", "Store food for later use", "Help the octopus breathe underwater"],
+        "correct": 1
+      },
+      {
+        "question": "What puzzling fact about octopus vision does the article mention?",
+        "options": ["Octopuses cannot see at all", "Octopuses are colorblind yet can still match colors precisely", "Octopuses only see in black and white at night", "Octopuses have four eyes"],
+        "correct": 1
+      }
+    ]
+  }
+]
