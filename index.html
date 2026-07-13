@@ -19,7 +19,27 @@
 </head>
 <body>
 
-<div class="app-shell">
+<!-- On-device PIN gate. This is a casual-visitor deterrent, not real
+     account security: the PIN and its hash both live in this browser's
+     own storage, so anyone with access to the device can bypass it. -->
+<div class="pin-gate" id="pin-gate">
+  <div class="pin-gate-card">
+    <p class="pin-gate-kicker" id="pin-gate-kicker">Locked</p>
+    <h1 class="pin-gate-title" id="pin-gate-title">Enter your PIN</h1>
+    <p class="pin-gate-sub">This is a simple on-device lock to keep casual visitors out &mdash; not account security. Anyone with access to this browser's storage can bypass it.</p>
+
+    <form id="pin-gate-form">
+      <input type="password" inputmode="numeric" autocomplete="off" id="pin-gate-input" class="pin-gate-input" placeholder="PIN" aria-label="PIN" />
+      <input type="password" inputmode="numeric" autocomplete="off" id="pin-gate-confirm" class="pin-gate-input" placeholder="Confirm PIN" aria-label="Confirm PIN" hidden />
+      <p class="pin-gate-error" id="pin-gate-error" hidden></p>
+      <button type="submit" class="btn btn-primary" id="pin-gate-submit">Unlock</button>
+    </form>
+
+    <button class="pin-gate-forgot" id="pin-gate-forgot" type="button">Forgot PIN? Erase all local data</button>
+  </div>
+</div>
+
+<div class="app-shell" id="app-shell" hidden>
 
   <!-- Left index-tab navigation -->
   <nav class="tab-rail" aria-label="Main navigation">
@@ -41,6 +61,10 @@
     <button class="tab-btn" id="tab-settings" data-view="settings">
       <span class="tab-icon" aria-hidden="true">&#9881;</span>
       Settings
+    </button>
+    <button class="tab-btn" id="tab-admin" data-view="admin">
+      <span class="tab-icon" aria-hidden="true">&#128736;</span>
+      Admin
     </button>
   </nav>
 
@@ -136,6 +160,73 @@
     </div>
   </section>
 
+  <!-- ADMIN / local device management view -->
+  <section class="view" id="view-admin" hidden>
+    <p class="view-eyebrow">This device only</p>
+    <h1 class="view-title">Admin</h1>
+
+    <div class="settings-card">
+      <div class="settings-row">
+        <div>
+          <div class="settings-label">Words collected</div>
+          <div class="settings-sub" id="admin-stat-words">0</div>
+        </div>
+      </div>
+      <div class="settings-row">
+        <div>
+          <div class="settings-label">Articles with a quiz score</div>
+          <div class="settings-sub" id="admin-stat-articles">0</div>
+        </div>
+      </div>
+      <div class="settings-row">
+        <div>
+          <div class="settings-label">Practice accuracy (all-time)</div>
+          <div class="settings-sub" id="admin-stat-accuracy">0%</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="settings-card">
+      <div class="settings-row">
+        <div>
+          <div class="settings-label">Change PIN</div>
+          <div class="settings-sub">Update the on-device lock PIN</div>
+        </div>
+      </div>
+      <form id="admin-change-pin-form" class="admin-pin-form">
+        <input type="password" inputmode="numeric" autocomplete="off" id="admin-current-pin" placeholder="Current PIN" aria-label="Current PIN" />
+        <input type="password" inputmode="numeric" autocomplete="off" id="admin-new-pin" placeholder="New PIN" aria-label="New PIN" />
+        <input type="password" inputmode="numeric" autocomplete="off" id="admin-confirm-pin" placeholder="Confirm new PIN" aria-label="Confirm new PIN" />
+        <button type="submit" class="btn btn-primary btn-small">Update PIN</button>
+      </form>
+      <p class="settings-status" id="admin-pin-status" hidden></p>
+    </div>
+
+    <div class="settings-card">
+      <div class="settings-row">
+        <div>
+          <div class="settings-label">Clear word history</div>
+          <div class="settings-sub">Removes every collected word. Cannot be undone.</div>
+        </div>
+        <button class="btn btn-danger btn-small" id="admin-clear-history">Clear</button>
+      </div>
+      <div class="settings-row">
+        <div>
+          <div class="settings-label">Clear practice &amp; quiz progress</div>
+          <div class="settings-sub">Resets all-time practice stats and per-article quiz results. Cannot be undone.</div>
+        </div>
+        <button class="btn btn-danger btn-small" id="admin-clear-progress">Clear</button>
+      </div>
+      <div class="settings-row">
+        <div>
+          <div class="settings-label">Erase everything</div>
+          <div class="settings-sub">Wipes all local data, including your PIN. You'll set a new PIN afterward.</div>
+        </div>
+        <button class="btn btn-danger btn-small" id="admin-erase-all">Erase all</button>
+      </div>
+    </div>
+  </section>
+
 </div>
 
 <!-- Word definition popup -->
@@ -169,6 +260,7 @@
 
 <script src="js/storage.js"></script>
 <script src="js/dictionary.js"></script>
+<script src="js/auth.js"></script>
 <script src="js/app.js"></script>
 </body>
 </html>

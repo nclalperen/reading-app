@@ -43,6 +43,7 @@
     wirePopup();
     wireSettings();
     wireArticleActions();
+    wireAdmin();
 
     const res = await fetch("data/articles.json");
     ARTICLES = await res.json();
@@ -80,6 +81,7 @@
     if (name === "history") renderHistory();
     if (name === "practice") renderPractice();
     if (name === "settings") renderSettingsView();
+    if (name === "admin") renderAdminView();
   }
 
   // ---------- Article rendering ----------
@@ -670,6 +672,71 @@
     const settings = Storage.getSettings();
     el("settings-translation-toggle").checked = !!settings.translationEnabled;
     el("settings-lang-select").value = settings.targetLang || "es";
+  }
+
+  // ---------- Admin ----------
+
+  function renderAdminView() {
+    el("admin-stat-words").textContent = String(Storage.getHistory().length);
+    el("admin-stat-articles").textContent = String(Object.keys(Storage.getArticleProgress()).length);
+
+    const stats = Storage.getPracticeStats();
+    const accuracy = stats.allTimeRounds > 0 ? Math.round((stats.allTimeScore / stats.allTimeRounds) * 100) : 0;
+    el("admin-stat-accuracy").textContent = `${accuracy}% (${stats.allTimeScore}/${stats.allTimeRounds})`;
+  }
+
+  function showAdminPinStatus(message) {
+    const status = el("admin-pin-status");
+    status.textContent = message;
+    status.hidden = false;
+  }
+
+  function wireAdmin() {
+    el("admin-change-pin-form").addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const current = el("admin-current-pin").value.trim();
+      const next = el("admin-new-pin").value.trim();
+      const confirmPin = el("admin-confirm-pin").value.trim();
+
+      const ok = await Auth.verifyPin(current);
+      if (!ok) {
+        showAdminPinStatus("Current PIN is incorrect.");
+        return;
+      }
+      if (next.length < 4) {
+        showAdminPinStatus("New PIN must be at least 4 characters.");
+        return;
+      }
+      if (next !== confirmPin) {
+        showAdminPinStatus("New PINs don't match.");
+        return;
+      }
+
+      await Auth.setPin(next);
+      e.target.reset();
+      showAdminPinStatus("PIN updated.");
+    });
+
+    el("admin-clear-history").addEventListener("click", () => {
+      if (!confirm("Clear all collected words? This cannot be undone.")) return;
+      Storage.saveHistory([]);
+      document.querySelectorAll(".word.crossed").forEach((s) => s.classList.remove("crossed"));
+      updateWordsCount();
+      renderAdminView();
+    });
+
+    el("admin-clear-progress").addEventListener("click", () => {
+      if (!confirm("Clear all practice stats and quiz progress? This cannot be undone.")) return;
+      Storage.clearPracticeStats();
+      Storage.clearArticleProgress();
+      renderAdminView();
+    });
+
+    el("admin-erase-all").addEventListener("click", () => {
+      if (!confirm("Erase ALL local data, including your PIN? You'll set a new PIN afterward. This cannot be undone.")) return;
+      Auth.resetAll();
+      location.reload();
+    });
   }
 
   document.addEventListener("DOMContentLoaded", init);

@@ -103,4 +103,12 @@ const Storage = {
     all[articleId] = progress;
     localStorage.setItem(STORAGE_KEYS.articleProgress, JSON.stringify(all));
   },
+
+  // ---- bulk clears, used by the Admin view's danger zone ----
+  clearPracticeStats() {
+    localStorage.removeItem(STORAGE_KEYS.practiceStats);
+  },
+  clearArticleProgress() {
+    localStorage.removeItem(STORAGE_KEYS.articleProgress);
+  },
 };

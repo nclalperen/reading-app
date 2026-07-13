@@ -68,6 +68,115 @@ button {
   clip: rect(0,0,0,0);
 }
 
+/* ---------- PIN gate ---------- */
+
+.pin-gate {
+  position: fixed;
+  inset: 0;
+  background: var(--paper);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  z-index: 100;
+}
+
+.pin-gate[hidden] { display: none; }
+
+.pin-gate-card {
+  background: var(--paper-raised);
+  border: 1px solid var(--line);
+  border-top: 3px solid var(--rust);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  width: 100%;
+  max-width: 380px;
+  padding: 32px 30px;
+  text-align: center;
+}
+
+.pin-gate-kicker {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--rust);
+  margin: 0 0 8px;
+}
+
+.pin-gate-title {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 24px;
+  color: var(--ink);
+  margin: 0 0 10px;
+}
+
+.pin-gate-sub {
+  font-size: 12.5px;
+  line-height: 1.5;
+  color: var(--charcoal-soft);
+  margin: 0 0 22px;
+}
+
+.pin-gate-input {
+  display: block;
+  width: 100%;
+  font-family: var(--font-ui);
+  font-size: 16px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  padding: 12px 14px;
+  border-radius: var(--radius);
+  border: 1px solid var(--line-strong);
+  background: var(--paper);
+  color: var(--charcoal);
+  margin-bottom: 10px;
+}
+
+.pin-gate-error {
+  font-size: 12.5px;
+  color: var(--rust);
+  margin: 0 0 12px;
+}
+
+.pin-gate-form .btn {
+  width: 100%;
+}
+
+.pin-gate-forgot {
+  display: inline-block;
+  margin-top: 18px;
+  background: none;
+  border: none;
+  font-size: 12px;
+  color: var(--charcoal-soft);
+  text-decoration: underline;
+}
+.pin-gate-forgot:hover { color: var(--rust); }
+
+/* ---------- Admin ---------- */
+
+.admin-pin-form {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 4px 0 16px;
+}
+
+.admin-pin-form input {
+  flex: 1;
+  min-width: 120px;
+  font-family: var(--font-ui);
+  font-size: 13.5px;
+  padding: 9px 11px;
+  border-radius: var(--radius);
+  border: 1px solid var(--line-strong);
+  background: var(--paper);
+  color: var(--charcoal);
+}
+
 /* ---------- App shell ---------- */
 
 .app-shell {
