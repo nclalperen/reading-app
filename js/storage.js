@@ -14,7 +14,7 @@ const STORAGE_KEYS = {
 
 const DEFAULT_SETTINGS = {
   translationEnabled: false,
-  targetLang: "es",
+  targetLang: "tr",
 };
 
 const DEFAULT_PRACTICE_STATS = {

@@ -671,7 +671,7 @@
   function renderSettingsView() {
     const settings = Storage.getSettings();
     el("settings-translation-toggle").checked = !!settings.translationEnabled;
-    el("settings-lang-select").value = settings.targetLang || "es";
+    el("settings-lang-select").value = settings.targetLang || "tr";
   }
 
   // ---------- Admin ----------
