@@ -1300,5 +1300,635 @@
         "correct": 1
       }
     ]
+  },
+  {
+    "id": "art_032",
+    "title": "The Audible Origin of Cliché",
+    "paragraphs": [
+      "Today, the word \"cliché\" refers to an overused phrase or idea that has lost its original impact. However, this common term actually originated in the nineteenth-century printing workshops of France as a description of a mechanical sound.",
+      "In early printing, workers assembled individual metal letters one by one to form words. When a page of text was extremely popular, printers found it faster to cast the entire page into a single solid lead plate rather than resetting it.",
+      "This casting process allowed them to print pages repeatedly without rebuilding the layout. When the molten metal hit the mold, it produced a distinct clicking noise, which French printers described using the onomatopoeic verb \"clicher\" to mimic the sound.",
+      "Soon, the cast plates themselves were called clichés. Because these plates produced identical copies of text over and over, the word eventually shifted from a printing term to a metaphor for unoriginal, repetitive, and predictable ideas in language."
+    ],
+    "quiz": [
+      {
+        "question": "In which century did the word \"cliché\" originate?",
+        "options": [
+          "The seventeenth century",
+          "The eighteenth century",
+          "The nineteenth century",
+          "The twentieth century"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "What did French printers call the plate cast from a whole page of text?",
+        "options": [
+          "A font",
+          "A cliché",
+          "A press",
+          "A mold"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "What mechanical process originally gave rise to the term \"clicher\"?",
+        "options": [
+          "The sound of molten metal hitting a mold",
+          "The speed of the typists",
+          "The movement of the paper feed",
+          "The cleaning of the metal letters"
+        ],
+        "correct": 0
+      }
+    ]
+  },
+  {
+    "id": "art_033",
+    "title": "The Placebo Power of Pretend Surgery",
+    "paragraphs": [
+      "The placebo effect is well known in medicine, where patients experience real health improvements after taking a sugar pill. However, some of the most surprising placebo responses occur in the complex realm of surgical procedures. It shows the brain's control over pain.",
+      "In clinical trials of \"sham\" surgeries, researchers divide patients into two groups. One group receives the actual operation, while the other group undergoes a pretend procedure where surgeons make identical incisions but perform no internal repairs inside the body.",
+      "Astoundingly, patients who receive these sham surgeries often report the same level of pain relief and mobility improvement as those who had the real operation. The brain's expectation of healing triggers real physiological changes that mimic actual recovery on a chemical level.",
+      "While performing sham surgeries raises ethical questions, these studies are critical for determining whether a surgical technique is truly effective. They show that the mind's belief in a cure can be as powerful as the scalpel itself during treatment."
+    ],
+    "quiz": [
+      {
+        "question": "What is a \"sham\" surgery?",
+        "options": [
+          "A surgery performed by a robot",
+          "A pretend procedure where no internal repairs are made",
+          "A surgery done without anesthesia",
+          "An emergency operation on a battlefield"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "How do patients who undergo sham surgeries compare to those who receive real surgery in some trials?",
+        "options": [
+          "They experience much worse pain",
+          "They often report identical levels of healing and pain relief",
+          "They recover twice as fast",
+          "They suffer from more infections"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Why are sham surgeries studied?",
+        "options": [
+          "To train student doctors faster",
+          "To save money on expensive medical equipment",
+          "To determine if a surgical technique is actually effective",
+          "To test new types of surgical lighting"
+        ],
+        "correct": 2
+      }
+    ]
+  },
+  {
+    "id": "art_034",
+    "title": "The Great Smog of London",
+    "paragraphs": [
+      "In December 1952, a thick, yellow-black fog settled over the city of London. What initially seemed like a typical cold winter mist quickly turned into a deadly environmental disaster known as the Great Smog. It choked the entire metropolis.",
+      "The disaster was triggered by a weather phenomenon called an anticyclone, which trapped cold air near the ground. This trapped air forced Londoners to burn massive amounts of coal to heat their homes, filling the sky with thick soot.",
+      "Because there was no wind to sweep the air away, the toxic coal smoke accumulated into a dense layer that reduced visibility to a few inches. Buses stopped running, and theaters closed because the smog drifted indoors, obscuring the stages completely.",
+      "The smog lasted for five days, causing thousands of respiratory deaths and leading to the historic Clean Air Act of 1956. This event changed how modern cities view the regulation of industrial emissions and urban pollution today."
+    ],
+    "quiz": [
+      {
+        "question": "What weather phenomenon trapped the cold air and coal smoke over London in 1952?",
+        "options": [
+          "A hurricane",
+          "An anticyclone",
+          "A tornado",
+          "A blizzard"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Why did theaters close during the Great Smog?",
+        "options": [
+          "There was a strike by the actors",
+          "The smog drifted indoors and obscured the stages",
+          "The city cut off electricity to save coal",
+          "Audiences refused to pay for tickets"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "What major piece of legislation was passed as a direct result of the Great Smog?",
+        "options": [
+          "The Coal Mining Act",
+          "The Clean Air Act of 1956",
+          "The London Transport Law",
+          "The Weather Forecasting Bill"
+        ],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "art_035",
+    "title": "Cracking the Enigma Code",
+    "paragraphs": [
+      "During World War II, the German military transmitted their most sensitive communications using a complex encryption device called the Enigma machine. The machine resembled a heavy typewriter, but its internal gears scrambled messages into random letters to maintain secrecy.",
+      "The Enigma machine used rotating rotors that changed the electrical path for every single letter typed. Because the machine had billions of possible settings, the Germans believed their code was absolutely unbreakable by any human cryptanalyst or machine.",
+      "However, a team of Polish mathematicians led by Marian Rejewski first broke the code in the 1930s by building mechanical replicas of the machine. Their vital work was later shared with British codebreakers at Bletchley Park to advance decryption.",
+      "Using early electromechanical computers called Bombes, Alan Turing and his colleagues successfully automated the decryption process. Cracking the Enigma code provided crucial intelligence that shortened the war by years and saved countless lives across Europe."
+    ],
+    "quiz": [
+      {
+        "question": "What did the Enigma machine resemble?",
+        "options": [
+          "A telephone switchboard",
+          "A heavy typewriter",
+          "A small radio transmitter",
+          "A mechanical clock"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Which group of codebreakers first broke the Enigma code in the 1930s?",
+        "options": [
+          "American engineers",
+          "French historians",
+          "Polish mathematicians",
+          "British naval officers"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "What was the name of the electromechanical computers used by Alan Turing to decrypt messages?",
+        "options": [
+          "Bombes",
+          "Enigmas",
+          "Colossus",
+          "Turing machines"
+        ],
+        "correct": 0
+      }
+    ]
+  },
+  {
+    "id": "art_036",
+    "title": "The Concorde and the Sunk Cost Fallacy",
+    "paragraphs": [
+      "The sunk cost fallacy is a cognitive bias where individuals or groups continue investing in a failing project simply because they have already spent significant resources on it. This occurs even when better alternatives exist in the market.",
+      "This psychological trap is so famous that economists often call it the \"Concorde effect.\" It was named after the supersonic passenger jet built by the British and French governments in the late twentieth century to showcase technology.",
+      "Although it was a technological marvel, the Concorde was a commercial disaster. It consumed enormous amounts of fuel, carried few passengers, and faced severe noise restrictions that prevented it from flying at supersonic speeds over inhabited land.",
+      "Despite realizing early on that the jet would never be profitable, both governments continued pouring millions into the project for decades. They did so to avoid the political embarrassment of admitting defeat, showing how hard it is to walk away from waste."
+    ],
+    "quiz": [
+      {
+        "question": "What is the sunk cost fallacy?",
+        "options": [
+          "The belief that cheaper items are always lower quality",
+          "Continuing to invest in a failing project because of past spending",
+          "Assuming that a successful project will never fail",
+          "Investing only in projects that use renewable energy"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "What is the alternative name for the sunk cost fallacy in economics?",
+        "options": [
+          "The Boeing trap",
+          "The Concorde effect",
+          "The Tulip effect",
+          "The Sunk Ship theory"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Why did governments continue funding the Concorde project despite its lack of profitability?",
+        "options": [
+          "Try were legally forced to by a treaty",
+          "They wanted to avoid the political embarrassment of admitting defeat",
+          "They believed fuel prices would drop to zero",
+          "They had no other planes to fly"
+        ],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "art_037",
+    "title": "The Perverse Incentives of the Cobra Effect",
+    "paragraphs": [
+      "When designing public policies, modern governments must be careful to avoid perverse incentives. These are rules that accidentally encourage the very behavior they were intended to prevent, often leading to bizarre, unexpected, and counterproductive outcomes in modern society.",
+      "The term originally originates from British colonial rule in India. Concerned about the large number of venomous cobras in the city of Delhi, the government offered a substantial financial bounty for every dead cobra brought to local authorities.",
+      "Initially, the policy worked well as residents actively hunted wild snakes for cash. However, enterprising citizens soon realized they could earn more money by breeding cobras in their homes and presenting the young offspring to collect the bounty.",
+      "When the government discovered the scheme and cancelled the reward, the breeders released their now-worthless cobras into the streets. The snake population actually increased dramatically, proving that simple solutions can worsen complex issues by ignoring human nature."
+    ],
+    "quiz": [
+      {
+        "question": "What is a perverse incentive?",
+        "options": [
+          "A reward that encourages good behavior",
+          "A rule that accidentally encourages the behavior it wanted to prevent",
+          "A penalty that is too harsh for the crime",
+          "A tax that is only paid by wealthy businesses"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Where does the term \"Cobra Effect\" originate?",
+        "options": [
+          "British colonial India",
+          "Imperial China",
+          "Ancient Egypt",
+          "Nineteenth-century Australia"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What happened when the government cancelled the bounty on cobras?",
+        "options": [
+          "The city hired professional snake catchers",
+          "Residents continued hunting them for food",
+          "Breeders released their cobras, increasing the snake population",
+          "Cobras were declared protected animals"
+        ],
+        "correct": 2
+      }
+    ]
+  },
+  {
+    "id": "art_038",
+    "title": "The Physics of a Blue Sky",
+    "paragraphs": [
+      "If you look up on a clear day, the sky appears a brilliant blue, while a sunset paints the horizon in deep reds and oranges. This daily spectacle is caused by a physics phenomenon called Rayleigh scattering.",
+      "Sunlight appears white to us, but it actually contains all the colors of the rainbow, each traveling at different wavelengths. Blue light has short, choppy wavelengths, while red light travels in much longer waves through space.",
+      "As sunlight passes through Earth's atmosphere, it collides with gas molecules like nitrogen and oxygen. Because of their tiny size, these molecules scatter the shorter, blue wavelengths of light in every direction, coloring the sky above.",
+      "At sunset, the sun is much lower on the horizon, forcing its light to travel through a much thicker layer of the atmosphere. Most of the blue light is scattered away before reaching our eyes, leaving only the longer red waves."
+    ],
+    "quiz": [
+      {
+        "question": "What determines the color of a light wave?",
+        "options": [
+          "Its temperature",
+          "Its wavelength",
+          "Its chemical purity",
+          "The speed of the wind"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Which gas molecules scatter blue light in Earth's atmosphere?",
+        "options": [
+          "Carbon dioxide and helium",
+          "Nitrogen and oxygen",
+          "Methane and argon",
+          "Water vapor and ozone"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Why does the sunset look red and orange?",
+        "options": [
+          "The sun becomes physically hotter at sunset",
+          "Light must travel through a thicker layer of atmosphere, scattering away the blue light",
+          "Air pollution increases at the end of the day",
+          "Clouds absorb all the blue light waves"
+        ],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "art_039",
+    "title": "The Synchronous Flash of Fireflies",
+    "paragraphs": [
+      "Walk into a damp forest in parts of Southeast Asia or the Great Smoky Mountains during summer, and you might witness a truly magical sight. Thousands of fireflies flash their bioluminescent lights in perfect, unison patterns across the dark trees.",
+      "Traditionally, scientists believed this behavior was impossible because insects lack a central conductor to coordinate their flashes. However, researchers discovered that this synchronization is a remarkable emergent phenomenon driven by simple, local visual interactions.",
+      "Each individual firefly has an internal biological clock that dictates when it flashes its light. When a firefly sees a neighbor flash, it adjusts its own timing by a small fraction of a second to match the visual signal.",
+      "Over a few minutes, this mutual adjustment spreads through the entire swarm of fireflies. What starts as random, chaotic blinking eventually coordinates into a massive wave of light, showing how simple rules can create complex, beautiful order."
+    ],
+    "quiz": [
+      {
+        "question": "Where can synchronous fireflies be observed?",
+        "options": [
+          "Dry deserts of Arizona",
+          "Damp forests in parts of Southeast Asia or the Great Smoky Mountains",
+          "High mountaintops in Switzerland",
+          "Frozen tundra of Siberia"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "How do fireflies coordinate their flashes without a leader?",
+        "options": [
+          "By listening to the sound of crickets",
+          "By adjusting their internal timing when they see a neighbor flash",
+          "By following temperature changes in the air",
+          "By emitting a chemical scent that travels quickly"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "What type of phenomenon is firefly synchronization classified as?",
+        "options": [
+          "A predatory response",
+          "An emergent phenomenon",
+          "A geological event",
+          "A genetic mutation"
+        ],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "art_040",
+    "title": "The Faces of the Terracotta Army",
+    "paragraphs": [
+      "In 1974, farmers digging a water well in central China made one of the greatest archaeological discoveries of the twentieth century. They uncovered a vast, hidden underground vault containing thousands of life-sized clay soldiers standing in rows.",
+      "Created over two thousand years ago, this Terracotta Army was built to protect Qin Shi Huang, the first Emperor of China, in his afterlife. The vault contained infantry, archers, life-sized clay horses, and wooden chariots, all arranged in complex military formations.",
+      "The most astonishing feature of the army is the unique detail of each figure. Rather than using a single mold to copy features, ancient craftsmen sculpted individual faces, hairstyles, and armor, making every single soldier appear distinct.",
+      "Archaeologists believe that the army was originally painted in vibrant colors, though exposure to air caused the pigment to flake off rapidly after excavation. The massive scale of this imperial project reveals the absolute power of the ancient emperor."
+    ],
+    "quiz": [
+      {
+        "question": "When was the Terracotta Army discovered?",
+        "options": [
+          "In 1912",
+          "In 1945",
+          "In 1974",
+          "In 1999"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "Why was the Terracotta Army built?",
+        "options": [
+          "To train young soldiers for battle",
+          "To protect the first Emperor of China in his afterlife",
+          "To serve as a tourist attraction for visitors",
+          "To celebrate a peace treaty between ancient kingdoms"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "What makes the Terracotta Army particularly unique?",
+        "options": [
+          "Every soldier has a completely unique face and hairstyle",
+          "The soldiers are made of solid gold",
+          "They were built by European craftsmen",
+          "The soldiers are actually alive"
+        ],
+        "correct": 0
+      }
+    ]
+  },
+  {
+    "id": "art_041",
+    "title": "The Cardinal Directions of the Kuuk Thaayorre",
+    "paragraphs": [
+      "While English speakers describe space using egocentric terms like \"left\" and \"right,\" some languages use absolute direction. The Kuuk Thaayorre, an Indigenous community in northern Australia, utilize cardinal directions for all spatial descriptions in their daily life.",
+      "Instead of asking someone to move to their left, a Kuuk Thaayorre speaker would tell them to move to the \"north-northwest.\" This unique linguistic habit forces speakers to remain constantly aware of their geographic orientation at all times of day.",
+      "Even when sitting in a windowless room, they can point to any cardinal direction with remarkable precision, a skill that most English speakers lack entirely. Their native language trains their brain to behave like a biological compass.",
+      "This difference supports the idea of linguistic relativity, which suggests that the language we speak directly shapes how we perceive and think about the world around us. It shows that human cognition is not universal across cultures."
+    ],
+    "quiz": [
+      {
+        "question": "How do the Kuuk Thaayorre describe the position of objects?",
+        "options": [
+          "By using left and right",
+          "By using absolute cardinal directions",
+          "By comparing objects to trees",
+          "By referencing the shape of the moon"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "What skill do Kuuk Thaayorre speakers possess that most English speakers lack?",
+        "options": [
+          "The ability to speak five languages",
+          "Perfect pitch in music",
+          "The ability to accurately point to cardinal directions in a windowless room",
+          "A photographic memory for faces"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "What theory does this difference in spatial awareness support?",
+        "options": [
+          "Linguistic relativity",
+          "Universal grammar",
+          "Evolutionary biology",
+          "Continental drift"
+        ],
+        "correct": 0
+      }
+    ]
+  },
+  {
+    "id": "art_042",
+    "title": "How GPS Pinpoints Your Position",
+    "paragraphs": [
+      "When you use a smartphone map to find a local coffee shop, your device does not calculate your position using triangulation, which measures angles. Instead, it relies on a different mathematical process called trilateration to find you.",
+      "Trilateration works by measuring distances from multiple satellites orbiting the planet. Each GPS satellite broadcasts a signal containing its exact location and the precise time the signal was sent, which is then received by your phone's receiver.",
+      "By calculating how long the signal took to arrive, your phone determines its exact distance from that satellite. Since this distance could place you anywhere on a giant sphere around the satellite, a single signal is insufficient for navigation.",
+      "To pinpoint your exact location, your phone needs signals from at least four satellites. The physical intersection of these spheres narrows your position down to a single point on Earth's surface, showing the power of geometry in action."
+    ],
+    "quiz": [
+      {
+        "question": "What mathematical process does GPS use to calculate location?",
+        "options": [
+          "Triangulation",
+          "Trilateration",
+          "Trigonometry",
+          "Linear algebra"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "What information is contained in the signal broadcast by a GPS satellite?",
+        "options": [
+          "The weather at the satellite's location",
+          "The satellite's location and the precise time the signal was sent",
+          "A list of nearby cell towers",
+          "The user's destination"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "How many satellite signals are needed to pinpoint an exact location on Earth?",
+        "options": [
+          "Only one",
+          "At least two",
+          "At least four",
+          "Exactly ten"
+        ],
+        "correct": 2
+      }
+    ]
+  },
+  {
+    "id": "art_043",
+    "title": "The Limnic Disaster of Lake Nyos",
+    "paragraphs": [
+      "In August 1986, a silent and terrifying natural disaster struck the volcanic region of Cameroon. Without warning, Lake Nyos released a massive cloud of carbon dioxide gas, suffocating over seventeen hundred people overnight in neighboring villages near the lake.",
+      "This rare event, known as a limnic eruption, occurs only in deep lakes that sit above pockets of active volcanic gas. Over centuries, carbon dioxide seeps into the bottom of the lake, trapped securely by the cold water pressure.",
+      "Normally, the layers of lake water remain stable. However, a sudden trigger, such as a landslide or earthquake, can disrupt the lake, causing the saturated bottom water to rise quickly to the surface of the lake water.",
+      "As the pressure drops, the dissolved carbon dioxide bursts out of the water like gas from a shaken soda bottle. To prevent future disasters, scientists have installed ventilation pipes to slowly vent the gas into the atmosphere safely without danger."
+    ],
+    "quiz": [
+      {
+        "question": "What gas was released during the Lake Nyos disaster?",
+        "options": [
+          "Oxygen",
+          "Methane",
+          "Carbon dioxide",
+          "Helium"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "What is a limnic eruption?",
+        "options": [
+          "A volcanic eruption of boiling mud",
+          "A sudden release of toxic gas from a deep lake",
+          "A massive wave caused by an underwater earthquake",
+          "The drying up of a lake due to drought"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "How have scientists worked to prevent future limnic eruptions at Lake Nyos?",
+        "options": [
+          "By draining the lake completely",
+          "By installing pipes to slowly vent the gas",
+          "By building a concrete wall around the lake",
+          "By freezing the water with liquid nitrogen"
+        ],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "art_044",
+    "title": "Why Metal Feels Colder Than Wood",
+    "paragraphs": [
+      "If you touch a metal pole and a wooden bench outside on a cold day, the metal feels much colder than the wood. However, if both have been outside for hours, they are actually at the exact same temperature.",
+      "This sensory illusion is caused by differences in thermal conductivity, which is the speed at which a material transfers heat. The human body does not sense actual temperature; it senses the rate of heat loss from the skin.",
+      "Your body temperature is much warmer than the surrounding air. When you touch metal, which is an excellent thermal conductor, it quickly draws heat away from your skin, creating a rapid sensation of cold in your hand.",
+      "Wood, on the other hand, is a thermal insulator. It resists heat transfer, drawing warmth away from your hand very slowly. This difference shows that our senses can sometimes mislead us about physical reality in our environment."
+    ],
+    "quiz": [
+      {
+        "question": "If a metal pole and a wooden bench have been outside in the cold for hours, what is true of their temperatures?",
+        "options": [
+          "The metal is much colder",
+          "The wood is much colder",
+          "They are at the exact same temperature",
+          "Their temperatures cannot be measured"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "What physical property explains why metal feels colder than wood?",
+        "options": [
+          "Density",
+          "Thermal conductivity",
+          "Electrical resistance",
+          "Melting point"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "What do human touch receptors actually sense?",
+        "options": [
+          "The absolute temperature of an object",
+          "The rate of heat loss from our skin",
+          "The chemical composition of a material",
+          "The texture and weight combined"
+        ],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "art_045",
+    "title": "The Incredible Flight of the Monarch",
+    "paragraphs": [
+      "Every single autumn, millions of gorgeous monarch butterflies perform one of the most spectacular migrations in the entire animal kingdom. They fly thousands of miles from North America to the high pine forests of central Mexico to spend the winter months.",
+      "What makes this long journey astonishing is that no single butterfly ever makes the entire round trip. Monarch butterflies live for only a few weeks, meaning the migration requires four successive generations to complete the full cycle from start to finish.",
+      "The generation that travels south, known as the \"methuselah\" generation, undergoes major physiological changes that extend its lifespan to eight months. They survive the cold winter in Mexico before flying back north to lay their eggs.",
+      "Their offspring continue the long journey northward. Scientists still do not fully understand how these butterflies navigate to the exact same trees that their ancestors visited, a biological mystery guided by genetics, wind patterns, and internal compasses."
+    ],
+    "quiz": [
+      {
+        "question": "Where do monarch butterflies migrate to every autumn?",
+        "options": [
+          "The rainforests of Brazil",
+          "The pine forests of central Mexico",
+          "The beaches of Florida",
+          "The mountains of Colorado"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "How many generations does it take to complete the monarch migration?",
+        "options": [
+          "Only one",
+          "Exactly two",
+          "Exactly four",
+          "Over one hundred"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "What is unique about the generation of monarchs that travels south?",
+        "options": [
+          "They are twice as large as other monarchs",
+          "They undergo changes that extend their lifespan to eight months",
+          "They fly only at night to avoid predators",
+          "They do not need to eat during the journey"
+        ],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "art_046",
+    "title": "The Stroop Interference Effect",
+    "paragraphs": [
+      "If you are asked to read a list of color names written in plain black ink, you can do so quickly and easily. However, a psychological test shows how this simple task becomes difficult when ink colors clash visually.",
+      "In the Stroop test, participants are shown words that spell out colors, but the ink is a different color. For example, the word \"BLUE\" might be printed in red ink, and the task is to name the ink color.",
+      "Most people experience a noticeable delay and make frequent errors when trying to name the ink color. This occurs because reading is a highly automated habit that is difficult for the brain to suppress in the moment.",
+      "The brain automatically processes the written word before it identifies the ink color, creating cognitive interference. This simple test is widely used in neuroscience to study human attention, control, and executive function in cognitive science."
+    ],
+    "quiz": [
+      {
+        "question": "What is the task in a standard Stroop test?",
+        "options": [
+          "To read the printed words as fast as possible",
+          "To name the color of the ink rather than the word itself",
+          "To memorize the order of the words",
+          "To spell the words backward"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Why do people make errors and experience a delay in the Stroop test?",
+        "options": [
+          "They are unable to see the ink color clearly",
+          "Reading is an automated habit that is difficult to suppress",
+          "The words are printed in an ancient language",
+          "They forget the names of the colors"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "What area of study widely uses the Stroop test to evaluate attention and cognitive control?",
+        "options": [
+          "Astronomy",
+          "Neuroscience",
+          "Linguistics",
+          "Economics"
+        ],
+        "correct": 1
+      }
+    ]
   }
 ]
