@@ -56,7 +56,10 @@
 
       <div class="article-actions" id="article-actions">
         <button class="btn btn-primary" id="btn-take-quiz">Take the quiz</button>
-        <button class="btn btn-ghost" id="btn-new-article">Read a different article</button>
+        <div class="article-picker-wrap">
+          <button class="btn btn-ghost" id="btn-new-article" aria-haspopup="listbox" aria-expanded="false">Read a different article</button>
+          <div class="article-picker" id="article-picker" role="listbox" aria-label="Choose an article" hidden></div>
+        </div>
       </div>
 
       <div class="quiz-block" id="quiz-block" hidden></div>

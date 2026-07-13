@@ -9,6 +9,7 @@ const STORAGE_KEYS = {
   history: "readingapp_wordHistory",
   cache: "readingapp_dictionaryCache",
   practiceStats: "readingapp_practiceStats",
+  articleProgress: "readingapp_articleProgress",
 };
 
 const DEFAULT_SETTINGS = {
@@ -91,5 +92,15 @@ const Storage = {
   },
   savePracticeStats(stats) {
     localStorage.setItem(STORAGE_KEYS.practiceStats, JSON.stringify(stats));
+  },
+
+  // ---- per-article quiz progress ----
+  getArticleProgress() {
+    return safeParse(localStorage.getItem(STORAGE_KEYS.articleProgress), {});
+  },
+  saveArticleProgress(articleId, progress) {
+    const all = this.getArticleProgress();
+    all[articleId] = progress;
+    localStorage.setItem(STORAGE_KEYS.articleProgress, JSON.stringify(all));
   },
 };

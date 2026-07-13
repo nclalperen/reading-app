@@ -76,6 +76,7 @@
     document.querySelectorAll(".view").forEach((v) => (v.hidden = v.id !== `view-${name}`));
     document.querySelectorAll(".tab-btn").forEach((b) => b.classList.toggle("active", b.dataset.view === name));
 
+    if (name !== "read") closeArticlePicker();
     if (name === "history") renderHistory();
     if (name === "practice") renderPractice();
     if (name === "settings") renderSettingsView();
@@ -155,8 +156,9 @@
   }
 
   function wireArticleActions() {
-    el("btn-new-article").addEventListener("click", () => {
-      loadArticle(pickRandomArticle(currentArticle ? currentArticle.id : null), null);
+    el("btn-new-article").addEventListener("click", (e) => {
+      e.stopPropagation();
+      toggleArticlePicker();
     });
     el("btn-take-quiz").addEventListener("click", () => {
       renderQuiz();
@@ -164,6 +166,58 @@
       session.quizShown = true;
       Storage.saveSession(session);
     });
+    document.addEventListener("click", (e) => {
+      const picker = el("article-picker");
+      if (!picker.hidden && !picker.contains(e.target) && e.target !== el("btn-new-article")) {
+        closeArticlePicker();
+      }
+    });
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") closeArticlePicker();
+    });
+  }
+
+  function toggleArticlePicker() {
+    if (el("article-picker").hidden) openArticlePicker();
+    else closeArticlePicker();
+  }
+
+  function openArticlePicker() {
+    const picker = el("article-picker");
+    const progress = Storage.getArticleProgress();
+
+    picker.innerHTML = "";
+    ARTICLES.forEach((a) => {
+      const item = document.createElement("button");
+      item.type = "button";
+      item.className = "article-picker-item" + (currentArticle && a.id === currentArticle.id ? " current" : "");
+      item.setAttribute("role", "option");
+
+      const title = document.createElement("span");
+      title.className = "article-picker-title";
+      title.textContent = a.title;
+      item.appendChild(title);
+
+      const status = document.createElement("span");
+      const p = progress[a.id];
+      status.className = "article-picker-status" + (p ? "" : " unread");
+      status.textContent = p ? `${p.score}/${p.total}` : "Unread";
+      item.appendChild(status);
+
+      item.addEventListener("click", () => {
+        closeArticlePicker();
+        loadArticle(a, null);
+      });
+      picker.appendChild(item);
+    });
+
+    picker.hidden = false;
+    el("btn-new-article").setAttribute("aria-expanded", "true");
+  }
+
+  function closeArticlePicker() {
+    el("article-picker").hidden = true;
+    el("btn-new-article").setAttribute("aria-expanded", "false");
   }
 
   // ---------- Word click / popup ----------
@@ -343,6 +397,12 @@
       submitBtn.hidden = true;
       nextBtn.hidden = false;
       form.querySelectorAll("input[type=radio]").forEach((i) => (i.disabled = true));
+
+      Storage.saveArticleProgress(currentArticle.id, {
+        score,
+        total: currentArticle.quiz.length,
+        completedAt: new Date().toISOString(),
+      });
     });
 
     block.appendChild(form);

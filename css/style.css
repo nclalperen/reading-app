@@ -251,6 +251,76 @@ button {
   flex-wrap: wrap;
 }
 
+/* ---------- Article picker ---------- */
+
+.article-picker-wrap {
+  position: relative;
+  display: inline-block;
+}
+
+.article-picker {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  margin-bottom: 8px;
+  width: 340px;
+  max-width: 80vw;
+  max-height: 280px;
+  overflow-y: auto;
+  background: var(--paper-raised);
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 6px;
+  z-index: 20;
+}
+
+.article-picker[hidden] { display: none; }
+
+.article-picker-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  width: 100%;
+  text-align: left;
+  padding: 10px 12px;
+  border-radius: var(--radius);
+  background: transparent;
+  border: none;
+  font-family: var(--font-ui);
+  font-size: 13.5px;
+  color: var(--charcoal);
+}
+
+.article-picker-item:hover {
+  background: var(--moss-soft);
+}
+
+.article-picker-item.current {
+  background: var(--gold-soft);
+}
+
+.article-picker-title {
+  flex: 1;
+}
+
+.article-picker-status {
+  flex-shrink: 0;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: var(--moss-dark);
+  background: var(--moss-soft);
+  border-radius: 999px;
+  padding: 3px 9px;
+}
+
+.article-picker-status.unread {
+  color: var(--charcoal-soft);
+  background: var(--paper-deep);
+}
+
 /* ---------- Buttons ---------- */
 
 .btn {
