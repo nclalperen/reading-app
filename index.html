@@ -10,6 +10,11 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=Libre+Franklin:wght@400;500;600;700&display=swap" rel="stylesheet">
 
+<link rel="manifest" href="manifest.json" />
+<link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32.png" />
+<link rel="apple-touch-icon" href="icons/icon-192.png" />
+<meta name="theme-color" content="#34473A" />
+
 <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
@@ -107,13 +112,32 @@
         </select>
       </div>
     </div>
+
+    <div class="settings-card">
+      <div class="settings-row">
+        <div>
+          <div class="settings-label">Export word history</div>
+          <div class="settings-sub">Download your collected words as a JSON file</div>
+        </div>
+        <button class="btn btn-ghost btn-small" id="settings-export-btn">Export</button>
+      </div>
+      <div class="settings-row">
+        <div>
+          <div class="settings-label">Import word history</div>
+          <div class="settings-sub">Merge words from a previously exported file</div>
+        </div>
+        <button class="btn btn-ghost btn-small" id="settings-import-btn">Import</button>
+        <input type="file" id="settings-import-input" accept="application/json,.json" hidden />
+      </div>
+      <p class="settings-status" id="settings-backup-status" hidden></p>
+    </div>
   </section>
 
 </div>
 
 <!-- Word definition popup -->
 <div class="word-popup-backdrop" id="word-popup-backdrop" hidden>
-  <div class="word-popup" role="dialog" aria-modal="true" aria-labelledby="word-popup-word">
+  <div class="word-popup" id="word-popup" role="dialog" aria-modal="true" aria-labelledby="word-popup-word" aria-live="polite" tabindex="-1">
     <button class="word-popup-close" id="word-popup-close" aria-label="Close">&times;</button>
     <p class="word-popup-status">Collected</p>
     <h2 class="word-popup-word" id="word-popup-word"></h2>

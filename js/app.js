@@ -9,7 +9,8 @@
   let ARTICLES = [];
   let currentArticle = null;
   let currentWordKey = null;
-  const practiceState = { pool: [], lastKey: null, score: 0, rounds: 0 };
+  let popupTriggerEl = null;
+  const practiceState = { pool: [], lastKey: null, sessionScore: 0, sessionRounds: 0, currentStreak: 0 };
 
   const el = (id) => document.getElementById(id);
   const capitalize = (s) => (s ? s.charAt(0).toUpperCase() + s.slice(1) : s);
@@ -107,7 +108,16 @@
         span.className = "word" + (crossed.has(key) ? " crossed" : "");
         span.textContent = token;
         span.dataset.key = key;
-        span.addEventListener("click", () => handleWordClick(token));
+        span.tabIndex = 0;
+        span.setAttribute("role", "button");
+        span.setAttribute("aria-label", token);
+        span.addEventListener("click", () => handleWordClick(token, span));
+        span.addEventListener("keydown", (e) => {
+          if (e.key === "Enter" || e.key === " " || e.key === "Spacebar") {
+            e.preventDefault();
+            handleWordClick(token, span);
+          }
+        });
         p.appendChild(span);
       });
       body.appendChild(p);
@@ -158,12 +168,12 @@
 
   // ---------- Word click / popup ----------
 
-  async function handleWordClick(rawToken) {
+  async function handleWordClick(rawToken, triggerEl) {
     const key = Dictionary.normalize(rawToken);
     if (!key) return;
 
     document.querySelectorAll(`.word[data-key="${cssEscape(key)}"]`).forEach((s) => s.classList.add("crossed"));
-    openPopup(key);
+    openPopup(key, triggerEl);
 
     const entry = await Dictionary.lookup(rawToken);
 
@@ -184,12 +194,14 @@
     if (currentWordKey === key) fillPopup(entry, key);
   }
 
-  function openPopup(key) {
+  function openPopup(key, triggerEl) {
     currentWordKey = key;
+    popupTriggerEl = triggerEl || null;
     el("word-popup-word").textContent = capitalize(key);
     el("word-popup-loading").hidden = false;
     el("word-popup-content").hidden = true;
     el("word-popup-backdrop").hidden = false;
+    el("word-popup").focus();
   }
 
   function fillPopup(entry, key) {
@@ -238,6 +250,10 @@
   function closePopup() {
     el("word-popup-backdrop").hidden = true;
     currentWordKey = null;
+    if (popupTriggerEl && document.contains(popupTriggerEl)) {
+      popupTriggerEl.focus();
+    }
+    popupTriggerEl = null;
   }
 
   // ---------- Quiz ----------
@@ -404,11 +420,30 @@
     }
 
     practiceState.pool = history;
+    area.innerHTML = "";
+    area.appendChild(buildPracticeStatsBar());
+    const slot = document.createElement("div");
+    slot.id = "practice-card-slot";
+    area.appendChild(slot);
     startPracticeRound();
   }
 
+  function buildPracticeStatsBar() {
+    const stats = Storage.getPracticeStats();
+    const bar = document.createElement("p");
+    bar.className = "practice-stats-bar";
+    bar.id = "practice-stats-bar";
+    bar.textContent = practiceStatsBarText(stats);
+    return bar;
+  }
+
+  function practiceStatsBarText(stats) {
+    const accuracy = stats.allTimeRounds > 0 ? Math.round((stats.allTimeScore / stats.allTimeRounds) * 100) : 0;
+    return `All-time accuracy: ${accuracy}% (${stats.allTimeScore}/${stats.allTimeRounds}) · Best streak: ${stats.bestStreak} · Best session score: ${stats.bestSessionScore}`;
+  }
+
   function startPracticeRound() {
-    const area = el("practice-area");
+    const slot = el("practice-card-slot");
     const pool = practiceState.pool;
 
     let candidates = pool.filter((w) => w.key !== practiceState.lastKey);
@@ -419,14 +454,15 @@
     const distractorPool = shuffle(pool.filter((w) => w.key !== target.key));
     const options = shuffle([target.definition, ...distractorPool.slice(0, 3).map((w) => w.definition)]);
 
-    area.innerHTML = "";
+    slot.innerHTML = "";
 
     const card = document.createElement("div");
     card.className = "practice-card";
 
     const score = document.createElement("p");
     score.className = "practice-score";
-    score.textContent = `Score: ${practiceState.score} / ${practiceState.rounds} · ${pool.length} words in rotation`;
+    score.id = "practice-score";
+    score.textContent = `Score: ${practiceState.sessionScore} / ${practiceState.sessionRounds} this session · Streak: ${practiceState.currentStreak} · ${pool.length} words in rotation`;
     card.appendChild(score);
 
     const label = document.createElement("p");
@@ -456,8 +492,25 @@
         });
         if (!isCorrect) btn.classList.add("incorrect");
 
-        practiceState.rounds++;
-        if (isCorrect) practiceState.score++;
+        practiceState.sessionRounds++;
+        if (isCorrect) {
+          practiceState.sessionScore++;
+          practiceState.currentStreak++;
+        } else {
+          practiceState.currentStreak = 0;
+        }
+
+        const stats = Storage.getPracticeStats();
+        stats.allTimeRounds++;
+        if (isCorrect) stats.allTimeScore++;
+        if (practiceState.sessionScore > stats.bestSessionScore) stats.bestSessionScore = practiceState.sessionScore;
+        if (practiceState.currentStreak > stats.bestStreak) stats.bestStreak = practiceState.currentStreak;
+        Storage.savePracticeStats(stats);
+
+        const statsBar = el("practice-stats-bar");
+        if (statsBar) statsBar.textContent = practiceStatsBarText(stats);
+        score.textContent = `Score: ${practiceState.sessionScore} / ${practiceState.sessionRounds} this session · Streak: ${practiceState.currentStreak} · ${pool.length} words in rotation`;
+
         feedback.textContent = isCorrect ? "Correct." : "Not quite — the highlighted option was correct.";
 
         const nextBtn = document.createElement("button");
@@ -471,7 +524,7 @@
 
     card.appendChild(optionsWrap);
     card.appendChild(feedback);
-    area.appendChild(card);
+    slot.appendChild(card);
   }
 
   // ---------- Settings ----------
@@ -487,6 +540,70 @@
       settings.targetLang = e.target.value;
       Storage.saveSettings(settings);
     });
+
+    el("settings-export-btn").addEventListener("click", exportWordHistory);
+    el("settings-import-btn").addEventListener("click", () => el("settings-import-input").click());
+    el("settings-import-input").addEventListener("change", handleImportFile);
+  }
+
+  function showBackupStatus(message) {
+    const status = el("settings-backup-status");
+    status.textContent = message;
+    status.hidden = false;
+  }
+
+  function exportWordHistory() {
+    const history = Storage.getHistory();
+    const blob = new Blob([JSON.stringify(history, null, 2)], { type: "application/json" });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = `reading-app-word-history-${new Date().toISOString().slice(0, 10)}.json`;
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+    URL.revokeObjectURL(url);
+    showBackupStatus(`Exported ${history.length} word${history.length === 1 ? "" : "s"}.`);
+  }
+
+  function handleImportFile(e) {
+    const file = e.target.files && e.target.files[0];
+    e.target.value = "";
+    if (!file) return;
+
+    const reader = new FileReader();
+    reader.onload = () => {
+      let incoming;
+      try {
+        incoming = JSON.parse(reader.result);
+      } catch (err) {
+        showBackupStatus("Import failed: the file isn't valid JSON.");
+        return;
+      }
+      if (!Array.isArray(incoming)) {
+        showBackupStatus("Import failed: expected a list of words.");
+        return;
+      }
+
+      const existing = Storage.getHistory();
+      const existingKeys = new Set(existing.map((w) => w.key));
+      let added = 0;
+      let skipped = 0;
+      incoming.forEach((w) => {
+        if (w && typeof w.key === "string" && !existingKeys.has(w.key)) {
+          existing.push(w);
+          existingKeys.add(w.key);
+          added++;
+        } else {
+          skipped++;
+        }
+      });
+      Storage.saveHistory(existing);
+      updateWordsCount();
+      renderHistory();
+      showBackupStatus(`Imported ${added} new word${added === 1 ? "" : "s"}, skipped ${skipped} duplicate${skipped === 1 ? "" : "s"}.`);
+    };
+    reader.readAsText(file);
   }
 
   function renderSettingsView() {

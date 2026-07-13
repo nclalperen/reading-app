@@ -106,5 +106,329 @@
         "correct": 1
       }
     ]
+  },
+  {
+    "id": "art_005",
+    "title": "The Pony Express and the Race Against the Wire",
+    "paragraphs": [
+      "In April 1860, a private mail service called the Pony Express promised something audacious: a letter carried by horseback from Missouri to California in just ten days. Riders galloped in relentless relays, trading tired horses for fresh ones and passing a leather mail pouch from saddle to saddle across nearly two thousand miles of prairie, desert, and mountain.",
+      "The system depended on a chain of small relay stations spaced roughly ten to fifteen miles apart, close enough that a single horse could sprint the distance at full speed. A rider would cover several stations before handing off the mail pouch, called a mochila, to a fresh rider waiting with a fresh horse. Some riders covered more than seventy-five miles in a single stretch.",
+      "The job attracted young, light riders willing to face exhaustion, harsh weather, and occasional attacks along the route. Advertisements reportedly sought 'skinny, expert riders willing to risk death daily,' though historians debate how literally that phrasing was ever used. Despite the danger, the service built a reputation for near-mythical reliability, rarely losing the mail even when a rider did not survive the journey.",
+      "The Pony Express operated for only about eighteen months. In October 1861, the completion of the transcontinental telegraph line let messages cross the country in minutes rather than days, and the horseback relay instantly became obsolete. The company had lost money the entire time it operated, but its legend outlasted its brief and unprofitable existence by more than a century."
+    ],
+    "quiz": [
+      {
+        "question": "How many days did the Pony Express typically take to deliver mail across the country?",
+        "options": ["About ten days", "A single day", "Two months", "One year"],
+        "correct": 0
+      },
+      {
+        "question": "What eventually made the Pony Express obsolete?",
+        "options": ["A new type of horse", "The completion of the transcontinental telegraph", "A ban on private mail services", "The invention of the automobile"],
+        "correct": 1
+      },
+      {
+        "question": "How were relay stations spaced along the route?",
+        "options": ["Every hundred miles", "Roughly every ten to fifteen miles", "Only in major cities", "Every fifty feet"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "art_006",
+    "title": "The Radar Chip That Melted a Candy Bar",
+    "paragraphs": [
+      "In 1945, an engineer named Percy Spencer was testing a magnetron, a vacuum tube used to generate microwaves for radar systems, when he noticed something strange: a chocolate bar in his pocket had melted. Curious rather than annoyed, Spencer wondered whether the microwaves themselves, and not simply heat from the equipment, were responsible.",
+      "To test his hunch, Spencer aimed the magnetron at a bag of popcorn kernels, which promptly began to pop across his workbench. Encouraged, he tried an egg next; it exploded, splattering a colleague who had leaned in too closely to watch. The experiments convinced Spencer that microwaves could cook food quickly by agitating water molecules inside it.",
+      "Spencer's employer, Raytheon, filed a patent for a microwave cooking appliance later that year. The first commercial models, sold under the name Radarange, stood nearly six feet tall, weighed several hundred pounds, and cost roughly as much as a small car, limiting them mostly to restaurants and ships. It took decades of miniaturization before a compact version became affordable for ordinary kitchens.",
+      "By the 1970s, smaller and cheaper microwave ovens had become common household appliances, transforming how people reheated leftovers and prepared quick meals. Few users pausing to reheat a cup of coffee realize the technology traces back to a melted candy bar and an engineer curious enough to investigate an accident rather than dismiss it."
+    ],
+    "quiz": [
+      {
+        "question": "What first tipped off Percy Spencer that microwaves might cook food?",
+        "options": ["A chocolate bar melted in his pocket", "His lab caught fire", "A colleague suggested the idea", "He read about it in a magazine"],
+        "correct": 0
+      },
+      {
+        "question": "What happened when Spencer aimed the magnetron at an egg?",
+        "options": ["Nothing happened", "It exploded", "It froze", "It turned green"],
+        "correct": 1
+      },
+      {
+        "question": "Why were the first commercial microwave ovens limited mostly to restaurants and ships?",
+        "options": ["They were too small to be useful", "They were large, heavy, and expensive", "They were illegal in homes", "They required a special license"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "art_007",
+    "title": "The Shipwreck That Rewrote Ancient History",
+    "paragraphs": [
+      "In 1901, sponge divers exploring a shipwreck off the Greek island of Antikythera pulled up a corroded lump of bronze that at first attracted little attention. Only years later did researchers realize the fused fragments were the remains of an extraordinarily complex mechanical device, unlike anything else known from the ancient world.",
+      "Using X-ray imaging, scientists eventually revealed dozens of intricate bronze gears packed inside the device, some with teeth barely a millimeter across. The mechanism appeared capable of tracking the movements of the sun and moon, predicting eclipses, and even accounting for the irregular orbit of the moon, all through an interlocking system of gears turned by a hand crank.",
+      "Nothing else of comparable complexity appears in the historical record for well over a thousand years afterward. The sophistication of the gearing implied a tradition of precision engineering that historians had not previously credited to ancient Greek craftsmen, forcing a reconsideration of how advanced ancient technology truly was.",
+      "Researchers still debate exactly who built the device and why it was aboard a ship that sank more than two thousand years ago. Some suspect it was being transported as a valuable cargo item or diplomatic gift. Whatever its original purpose, the corroded fragments transformed our understanding of ancient scientific achievement."
+    ],
+    "quiz": [
+      {
+        "question": "Where was the mechanism discovered?",
+        "options": ["Inside a pyramid", "In a shipwreck off Antikythera", "Buried in a Roman villa", "In a cave in Crete"],
+        "correct": 1
+      },
+      {
+        "question": "What did the device appear capable of doing?",
+        "options": ["Measuring earthquakes", "Tracking celestial movements and predicting eclipses", "Translating ancient languages", "Purifying water"],
+        "correct": 1
+      },
+      {
+        "question": "What did the discovery force historians to reconsider?",
+        "options": ["The location of ancient Greece", "How advanced ancient technology truly was", "The diet of ancient sailors", "The size of ancient ships"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "art_008",
+    "title": "Why Onions Make You Cry",
+    "paragraphs": [
+      "Slicing into an onion sets off a small chemical chain reaction that ends with tears, and the process is more elaborate than most people realize. Onion cells store separate compounds that stay harmlessly apart until the cell walls are broken, which is exactly what a knife does.",
+      "Once ruptured, an enzyme mixes with sulfur-containing compounds inside the onion to create a volatile gas called syn-propanethial-S-oxide. This gas drifts upward and reaches the eyes, where it reacts with the thin layer of moisture on the surface to form a mild sulfuric acid.",
+      "The eyes respond to this irritation the only way they know how, by producing tears to flush the offending compound away. Blinking rapidly and looking away only helps a little, since the gas keeps spreading as long as the onion is being cut.",
+      "Cooks have developed various tricks to reduce the effect, including chilling the onion beforehand, which slows the chemical reaction, or cutting it underwater, which traps the gas before it reaches the air. Sharper knives also help, since they damage fewer cells and release less of the irritating compound."
+    ],
+    "quiz": [
+      {
+        "question": "What triggers the chemical reaction that makes onions cause tears?",
+        "options": ["Cooking the onion", "Breaking the onion's cell walls, such as with a knife", "Peeling off the skin", "Freezing the onion"],
+        "correct": 1
+      },
+      {
+        "question": "What does the resulting gas form when it reaches the eyes?",
+        "options": ["A sweet-smelling oil", "A mild sulfuric acid", "A harmless salt", "Nothing, it evaporates instantly"],
+        "correct": 1
+      },
+      {
+        "question": "Which trick is mentioned as a way to reduce onion-induced tears?",
+        "options": ["Cutting the onion in direct sunlight", "Chilling the onion before cutting it", "Cutting the onion very slowly", "Wearing gloves"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "art_009",
+    "title": "The Physics of a Perfect Stone Skip",
+    "paragraphs": [
+      "Skipping a stone across water looks like a simple trick, but it depends on a precise balance of speed, angle, and spin that took physicists decades to fully explain. Get any of the three wrong and the stone plunges straight into the water instead of bouncing.",
+      "The ideal angle between the stone and the water's surface turns out to be around twenty degrees. Too flat and the stone skids without enough force to bounce; too steep and the water simply absorbs the impact, dragging the stone under on the first strike.",
+      "Spin matters almost as much as angle. A rapidly spinning stone behaves like a gyroscope, resisting the wobble that would otherwise tip it off balance mid-flight. That stability lets the stone strike the water flat and consistent skip after skip, rather than tumbling erratically after the first bounce.",
+      "Researchers who study the physics of skipping stones have used the findings to model how flat objects interact with water at high speed, insights that have occasionally proven useful well beyond the riverbank, including in the design of certain naval projectiles during wartime. A weekend pastime, it turns out, sits closer to serious science than most people assume."
+    ],
+    "quiz": [
+      {
+        "question": "What is the approximate ideal angle for a stone to strike the water?",
+        "options": ["About twenty degrees", "About ninety degrees", "About five degrees", "There is no ideal angle"],
+        "correct": 0
+      },
+      {
+        "question": "What role does spin play in a skipping stone?",
+        "options": ["It slows the stone down", "It stabilizes the stone like a gyroscope", "It has no measurable effect", "It causes the stone to sink faster"],
+        "correct": 1
+      },
+      {
+        "question": "Where has research on skipping stones found unexpected real-world application?",
+        "options": ["Airplane wing design", "The design of certain naval projectiles", "Bicycle tire treads", "Building foundations"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "art_010",
+    "title": "Why Your Recorded Voice Sounds Wrong",
+    "paragraphs": [
+      "Almost everyone who hears a recording of their own voice for the first time reacts the same way: a flinch of disbelief, followed by the insistence that it doesn't sound like them at all. The reaction is so common that it has become something of a cultural joke, but the underlying explanation is straightforward physics.",
+      "When you speak, you hear your own voice through two separate pathways at once. Sound waves travel through the air to your ears, the same way anyone else hears you, but vibrations also travel directly through the bones and tissue of your skull, reaching your inner ear by a shortcut that bypasses the air entirely.",
+      "That bone conduction pathway tends to emphasize lower frequencies, giving your self-perceived voice a fuller, deeper quality than what actually leaves your mouth. A recording captures only the air-conducted sound, stripped of that bonus bass, which is why the playback can sound thinner or higher-pitched than the voice you expect to hear.",
+      "There is nothing wrong with the recording; it is, in fact, closer to what everyone else hears every time you speak. With repeated exposure, most people gradually grow more comfortable with their recorded voice, even if it never quite stops feeling like it belongs to someone else."
+    ],
+    "quiz": [
+      {
+        "question": "Why does a recorded voice sound different from how you hear yourself speak?",
+        "options": ["Microphones always distort sound", "Your own voice reaches you partly through bone conduction, not just air", "Recordings always play back faster", "Everyone's hearing changes as they age"],
+        "correct": 1
+      },
+      {
+        "question": "What quality does bone conduction add to your self-perceived voice?",
+        "options": ["A higher pitch", "A fuller, deeper quality", "An echo effect", "No noticeable difference"],
+        "correct": 1
+      },
+      {
+        "question": "According to the article, which version of your voice do other people actually hear?",
+        "options": ["The version you hear in your head", "The version captured in a recording", "Neither version is accurate", "A mix of both, averaged together"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "art_011",
+    "title": "The Sinking City Built on Wooden Piles",
+    "paragraphs": [
+      "Venice appears to float impossibly on the surface of a lagoon, and in a sense it does, but the truth beneath the water is stranger than the illusion. The city's stone palaces and church towers rest not on solid ground but on forests of wooden piles driven deep into the soft mud below.",
+      "Builders in the early centuries of the city drove millions of tree trunks, mostly alder wood, into the lagoon floor until they reached a firmer layer of compressed clay and sand. Stone foundations were then laid across the tops of the piles, spreading the weight of entire buildings evenly across the wooden forest underneath.",
+      "Remarkably, the wood has not simply rotted away over the centuries. Submerged in oxygen-poor mud and starved of the microorganisms that cause decay in open air, the piles have instead undergone a slow mineral transformation, growing harder and more stone-like the longer they remain underwater.",
+      "Venice's real modern threat is not the wooden foundation but the rising water itself, as the lagoon periodically floods streets and squares during exceptionally high tides. Engineers have built movable barriers to hold back the sea during the worst floods, an ongoing effort to keep the improbable floating city standing for centuries to come."
+    ],
+    "quiz": [
+      {
+        "question": "What do Venice's buildings actually rest on?",
+        "options": ["Solid bedrock", "Forests of wooden piles driven into the mud", "Floating concrete platforms", "Reinforced steel columns"],
+        "correct": 1
+      },
+      {
+        "question": "Why hasn't the wood beneath Venice rotted away?",
+        "options": ["It was chemically treated", "It is replaced every decade", "Oxygen-poor mud protects it from the microorganisms that cause decay", "The wood is a special rot-proof species"],
+        "correct": 2
+      },
+      {
+        "question": "What is described as Venice's main modern threat?",
+        "options": ["Earthquakes", "Rising water and flooding", "Wood-eating insects", "A shortage of building material"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "art_012",
+    "title": "The Icelandic Road That Bends Around a Boulder",
+    "paragraphs": [
+      "On Iceland's Snaefellsnes peninsula, a paved road takes a small, deliberate detour around a single moss-covered boulder rather than running straight through it. To an outsider it looks like an odd engineering choice, but for many Icelanders the curve makes perfect sense.",
+      "Icelandic folklore holds that certain rocks and cliffs are home to the huldufólk, or hidden people, elusive beings said to live alongside humans but usually out of sight. Boulders believed to house them are treated with real caution, and construction crews have occasionally rerouted roads rather than risk disturbing one.",
+      "Surveys conducted over the years have found that a notable share of Icelanders say they believe hidden people might exist, or at minimum refuse to rule it out entirely. Whether or not planners privately share that belief, respecting the folklore has proven to be the path of least resistance, both socially and, apparently, literally on the road.",
+      "Beyond any question of belief, the diverted roads have become a minor tourist curiosity in their own right, with visitors seeking out the oddly bent stretches of asphalt as a physical trace of a folklore tradition still quietly shaping the modern landscape."
+    ],
+    "quiz": [
+      {
+        "question": "Why does the road on the Snaefellsnes peninsula curve around a boulder?",
+        "options": ["The boulder is too large to remove", "Folklore about hidden people, or huldufólk, discourages disturbing it", "The rock is a protected fossil", "City planners made a mapping error"],
+        "correct": 1
+      },
+      {
+        "question": "According to the article, what are the huldufólk?",
+        "options": ["Elusive beings said to live alongside humans out of sight", "A species of Icelandic bird", "A government road planning agency", "A type of volcanic rock"],
+        "correct": 0
+      },
+      {
+        "question": "What have the diverted roads become, beyond their original purpose?",
+        "options": ["A hazard drivers avoid entirely", "A minor tourist curiosity", "A protected nature reserve", "An unused abandoned path"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "art_013",
+    "title": "The Itch of an Unfinished Task",
+    "paragraphs": [
+      "In the 1920s, psychologist Bluma Zeigarnik noticed something odd about waiters at a busy Vienna cafe: they could recall complicated, unpaid orders in vivid detail, but forgot the details almost the moment a bill was settled. Intrigued, she designed experiments to test whether unfinished tasks simply stick in memory better than completed ones.",
+      "In her studies, participants were asked to complete a series of small tasks, such as simple puzzles, but were deliberately interrupted partway through some of them. Afterward, participants recalled the interrupted, unfinished tasks nearly twice as often as the ones they had been allowed to finish.",
+      "The effect, now named after her, suggests that an open mental loop creates a kind of low-grade tension that keeps a task active in the mind until it is resolved. Completing a task appears to close that loop, letting the brain essentially file the memory away and move on.",
+      "The Zeigarnik effect has since been used to explain everything from the addictive pull of cliffhanger television episodes to the value of jotting down a half-finished thought before bed. Writing an unfinished task down, researchers have found, can trick the mind into feeling the loop is closed, easing the mental itch even before the work is actually done."
+    ],
+    "quiz": [
+      {
+        "question": "What did Bluma Zeigarnik originally notice about the waiters she observed?",
+        "options": ["They never made mistakes", "They recalled unpaid orders better than paid ones", "They worked faster than average", "They disliked their jobs"],
+        "correct": 1
+      },
+      {
+        "question": "In her experiments, which tasks did participants remember better?",
+        "options": ["Tasks they completed without interruption", "Tasks that were deliberately left unfinished", "Tasks they found boring", "There was no difference"],
+        "correct": 1
+      },
+      {
+        "question": "According to the article, what can help ease the mental tension of an unfinished task?",
+        "options": ["Ignoring it completely", "Writing it down, even before finishing it", "Working on multiple tasks at once", "Taking a long vacation"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "art_014",
+    "title": "Too Many Choices, Too Little Jam",
+    "paragraphs": [
+      "In a well-known experiment, researchers set up a tasting booth in an upscale grocery store and offered shoppers samples of jam. On some days, the booth displayed a wide selection of twenty-four different flavors; on others, it offered only six. More shoppers stopped to browse the larger display, drawn in by the sheer variety.",
+      "But when it came to actually buying a jar, the pattern reversed sharply. Shoppers who saw only six flavors were roughly ten times more likely to make a purchase than those who had faced the overwhelming array of twenty-four choices. Abundant options attracted attention but seemed to paralyze decision-making.",
+      "Researchers have since replicated similar effects across many other kinds of decisions, from retirement investment plans to restaurant menus. Beyond a certain point, additional choices appear to increase anxiety about making the wrong decision, and some people respond by avoiding the decision altogether rather than risk regret.",
+      "The finding has influenced how some retailers and designers curate their offerings, deliberately trimming an overwhelming catalog down to a smaller, more manageable set of options. Fewer choices, counterintuitively, can sometimes make customers both happier with their decision and more likely to make one in the first place."
+    ],
+    "quiz": [
+      {
+        "question": "In the jam experiment, which display attracted more browsers?",
+        "options": ["The smaller display with six flavors", "The larger display with twenty-four flavors", "Both attracted an equal number", "Neither attracted any shoppers"],
+        "correct": 1
+      },
+      {
+        "question": "Which group of shoppers was more likely to actually buy a jar of jam?",
+        "options": ["Those who saw twenty-four flavors", "Those who saw only six flavors", "Shoppers who tasted nothing", "There was no difference in purchases"],
+        "correct": 1
+      },
+      {
+        "question": "What does the article suggest too many choices can cause?",
+        "options": ["Faster decision-making", "Increased anxiety that can lead to avoiding a decision entirely", "Lower prices", "Improved memory of the options"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "art_015",
+    "title": "How GPS Satellites Race Against Time Itself",
+    "paragraphs": [
+      "The GPS system in every smartphone relies on a fleet of satellites broadcasting extremely precise time signals, and calculating a location depends on comparing tiny differences in when those signals arrive. Even a timing error of a few billionths of a second can translate into a position error of several meters on the ground.",
+      "That precision runs directly into a strange complication predicted by Einstein's theory of relativity: time itself does not tick at exactly the same rate everywhere. Because GPS satellites move fast and orbit far from Earth's surface, their onboard clocks experience time slightly differently than clocks down on the ground.",
+      "Two separate relativistic effects pull in opposite directions. The satellites' high speed slows their clocks down very slightly, while the weaker gravity at orbital altitude speeds their clocks up by a larger amount. Added together, satellite clocks run fast compared to clocks on Earth by about thirty-eight microseconds every day.",
+      "That may sound negligible, but left uncorrected, the error would compound into a navigation drift of roughly ten kilometers per day, rendering the system useless. Engineers solved the problem by deliberately building the satellite clocks to run slightly slow before launch, so that once relativity speeds them up in orbit, they match Earth time precisely."
+    ],
+    "quiz": [
+      {
+        "question": "Why is extremely precise timing critical to how GPS calculates location?",
+        "options": ["It isn't actually important", "Tiny timing errors translate into meaningful position errors on the ground", "GPS doesn't use timing at all", "Satellites only update their position once a year"],
+        "correct": 1
+      },
+      {
+        "question": "What does the article say happens to satellite clocks relative to clocks on Earth?",
+        "options": ["They run at exactly the same rate", "They run slightly fast due to combined relativistic effects", "They stop periodically", "They run dramatically slower"],
+        "correct": 1
+      },
+      {
+        "question": "How did engineers correct for the relativistic timing difference?",
+        "options": ["By replacing the clocks daily", "By deliberately building the satellite clocks to run slightly slow before launch", "By ignoring the error entirely", "By adding more satellites"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "art_016",
+    "title": "The Hidden Weight of a Single Email",
+    "paragraphs": [
+      "Sending an email feels weightless, but every message travels through a chain of physical infrastructure that consumes real electricity along the way. Data centers, network routers, and the recipient's own device all draw power to store, transmit, and eventually display a handful of words on a screen.",
+      "Researchers who study digital carbon footprints estimate that a typical short email generates only a tiny fraction of a gram of carbon dioxide, but the number climbs sharply for messages with large attachments, since bulky files demand more storage space and more energy to transfer across the network.",
+      "Multiplied across billions of messages sent every single day worldwide, even those tiny individual footprints add up to a meaningful amount of global energy consumption. Spam alone, most of which is never even opened, is estimated to account for a surprisingly large share of total email-related emissions.",
+      "Some simple habits can shrink the footprint: trimming unnecessary attachments, unsubscribing from unwanted mailing lists, and periodically deleting old, unread messages that still occupy space on power-hungry servers. None of these changes will transform the planet on their own, but collectively they nudge a mostly invisible cost a little closer to zero."
+    ],
+    "quiz": [
+      {
+        "question": "What does the article say actually happens when you send an email?",
+        "options": ["Nothing physical occurs", "It travels through physical infrastructure that consumes real electricity", "It is transmitted with zero energy cost", "It only uses energy on the sender's device"],
+        "correct": 1
+      },
+      {
+        "question": "What increases an email's carbon footprint the most, according to the article?",
+        "options": ["Using capital letters", "Large attachments", "Writing in a foreign language", "Sending it at night"],
+        "correct": 1
+      },
+      {
+        "question": "What is noted as accounting for a surprisingly large share of email emissions?",
+        "options": ["Emails from businesses", "Spam that is often never opened", "Emails sent from mobile phones", "International emails only"],
+        "correct": 1
+      }
+    ]
   }
 ]

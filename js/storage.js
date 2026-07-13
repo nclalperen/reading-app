@@ -8,11 +8,19 @@ const STORAGE_KEYS = {
   session: "readingapp_session",
   history: "readingapp_wordHistory",
   cache: "readingapp_dictionaryCache",
+  practiceStats: "readingapp_practiceStats",
 };
 
 const DEFAULT_SETTINGS = {
   translationEnabled: false,
   targetLang: "es",
+};
+
+const DEFAULT_PRACTICE_STATS = {
+  allTimeScore: 0,
+  allTimeRounds: 0,
+  bestSessionScore: 0,
+  bestStreak: 0,
 };
 
 function safeParse(raw, fallback) {
@@ -75,5 +83,13 @@ const Storage = {
     const cache = this.getCache();
     cache[key] = entry;
     localStorage.setItem(STORAGE_KEYS.cache, JSON.stringify(cache));
+  },
+
+  // ---- practice game stats (all-time, persisted across sessions) ----
+  getPracticeStats() {
+    return safeParse(localStorage.getItem(STORAGE_KEYS.practiceStats), { ...DEFAULT_PRACTICE_STATS });
+  },
+  savePracticeStats(stats) {
+    localStorage.setItem(STORAGE_KEYS.practiceStats, JSON.stringify(stats));
   },
 };
