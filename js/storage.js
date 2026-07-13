@@ -36,7 +36,12 @@ function safeParse(raw, fallback) {
 const Storage = {
   // ---- settings ----
   getSettings() {
-    return safeParse(localStorage.getItem(STORAGE_KEYS.settings), { ...DEFAULT_SETTINGS });
+    const saved = safeParse(localStorage.getItem(STORAGE_KEYS.settings), {});
+    const settings = { ...DEFAULT_SETTINGS, ...saved };
+    if (!["tr", "de"].includes(settings.targetLang)) {
+      settings.targetLang = "tr";
+    }
+    return settings;
   },
   saveSettings(settings) {
     localStorage.setItem(STORAGE_KEYS.settings, JSON.stringify(settings));
